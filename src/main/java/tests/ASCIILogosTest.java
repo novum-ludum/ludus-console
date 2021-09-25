@@ -1,11 +1,9 @@
 package tests;
 
-import com.ludus.AsciiLogos;
+import com.ludus.ASCIILogos;
 
 public class ASCIILogosTest {
     public static void main(String[] args) {
-        for(AsciiLogos logo : AsciiLogos.values()){
-            System.out.println(logo.getVal());
-        }
+        System.out.println(ASCIILogos.getRand());
     }
 }
