@@ -1,8 +1,0 @@
-{
-  "dependencies": {
-    "figlet": "^1.5.2"
-  },
-  "scripts": {
-    "genLogos": "rm ../ASCIILogos.java ; node ASCIILogosGen.js >> ../ASCIILogos.java"
-  }
-}

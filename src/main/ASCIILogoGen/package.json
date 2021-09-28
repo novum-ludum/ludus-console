@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "figlet": "^1.5.2"
+  },
+  "scripts": {
+    "genLogos": "rm ../java/com/ludus/ASCIILogos.java ; node ASCIILogosGen.js >> ../java/com/ludus/ASCIILogos.java"
+  }
+}
