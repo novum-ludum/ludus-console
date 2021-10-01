@@ -23,7 +23,7 @@ public void TestONEROW()
 {
     String expected = """
 |_ |_| |) |_| _\\~ 
-                   """;
+                  """;
     Assert.assertEquals(expected,ASCIILogos.ONEROW.getVal());
 }
 
@@ -37,7 +37,7 @@ public void TestTHREEXFIVE()
 #   # # ### # #  ## 
 #   # # # # # #  #  
 #   ### ### ### ##  
-###                  """;
+###                 """;
     Assert.assertEquals(expected,ASCIILogos.THREEXFIVE.getVal());
 }
 
@@ -49,7 +49,7 @@ public void TestFOURMAX()
 88     88   88 8888b.  88   88 .dP\"Y8 
 88     88   88  8I  Yb 88   88 `Ybo.\" 
 88  .o Y8   8P  8I  dY Y8   8P o.`Y8b 
-88ood8 `YbodP' 8888Y\"  `YbodP' 8bodP'  """;
+88ood8 `YbodP' 8888Y\"  `YbodP' 8bodP' """;
     Assert.assertEquals(expected,ASCIILogos.FOURMAX.getVal());
 }
 
@@ -61,7 +61,7 @@ public void TestAMC_THREE_LINE()
 .   . . .-. . . .-. 
 |   | | |  )| | `-. 
 `-' `-' `-' `-' `-' 
-                     """;
+                    """;
     Assert.assertEquals(expected,ASCIILogos.AMC_THREE_LINE.getVal());
 }
 
@@ -73,7 +73,7 @@ public void TestAMC_THREE_LIVONE()
      :. .:;S;:.  .:;:.  .:;S;:. .: S;:. 
       S       S S     S       S S  S  S 
 `:;S;:' `:;S;:' `:;S;:' `:;S;:' `:;S :' 
-                                         """;
+                                        """;
     Assert.assertEquals(expected,ASCIILogos.AMC_THREE_LIVONE.getVal());
 }
 
@@ -88,23 +88,22 @@ public void TestAMC_RAZOR()
 |   |      |   | |   | |   | |   | |   | |   |   `.|=|`.  
 |   |  ___ `.  | |   | |   | |  .' `.  | |   |  ___  |  `.
 |___|=|_.'   `.|=|___| |___|=|.'     `.|=|___|  `._|=|___|
-                                                           """;
+                                                          """;
     Assert.assertEquals(expected,ASCIILogos.AMC_RAZOR.getVal());
 }
 
 
 @Test
-public void TestAMC_THIN()
+public void TestAMC_SLIDER()
 {
     String expected = """
-.-.     .-.   .-. .-..-.   .-.   .-. .-..-. 
-| |     | |   | | | | ~.-. | |   | | | | ~  
-| |     | |   | | | |  | | | |   | |  \\|    
-| |     | |   | | | |  | | | |   | |    |\\  
-| | __  | | _ | | | | _`-' | | _ | |  _ | | 
-`-'`--' `-'`-'`-' `-'`-'   `-'`-'`-' `-'`-' 
-                                             """;
-    Assert.assertEquals(expected,ASCIILogos.AMC_THIN.getVal());
+                                                              
+|        |         | |``````.  |         |             ..'''' 
+|        |         | |       | |         |          .''       
+|        |         | |       | |         |       ..'          
+|_______ `._______.' |......'  `._______.' ....''             
+                                                              """;
+    Assert.assertEquals(expected,ASCIILogos.AMC_SLIDER.getVal());
 }
 
 
@@ -119,22 +118,23 @@ S      S       S S     S S       S   ss.
 S      S       S S     P S       S      b 
 S       S     S  S    S   S     S       P 
 P sSSs   \"sss\"   P ss\"     \"sss\"   ` ss'  
-                                           """;
+                                          """;
     Assert.assertEquals(expected,ASCIILogos.AMC_TUBES.getVal());
 }
 
 
 @Test
-public void TestAMC_SLIDER()
+public void TestAMC_THIN()
 {
     String expected = """
-                                                              
-|        |         | |``````.  |         |             ..'''' 
-|        |         | |       | |         |          .''       
-|        |         | |       | |         |       ..'          
-|_______ `._______.' |......'  `._______.' ....''             
-                                                               """;
-    Assert.assertEquals(expected,ASCIILogos.AMC_SLIDER.getVal());
+.-.     .-.   .-. .-..-.   .-.   .-. .-..-. 
+| |     | |   | | | | ~.-. | |   | | | | ~  
+| |     | |   | | | |  | | | |   | |  \\|    
+| |     | |   | | | |  | | | |   | |    |\\  
+| | __  | | _ | | | | _`-' | | _ | |  _ | | 
+`-'`--' `-'`-'`-' `-'`-'   `-'`-'`-' `-'`-' 
+                                            """;
+    Assert.assertEquals(expected,ASCIILogos.AMC_THIN.getVal());
 }
 
 
@@ -149,7 +149,7 @@ public void TestAMC_UNTITLED()
 ;  ;     ; ;  ; ; ;  ;;   ; ; ;  ; ; ',,','', 
 ;  ;,'', ; ',,' ; ;  ;;   ; ; ',,' ; ,'',;  ; 
 ',,'',,' ',,'',,' ',,'',,'  ',,'',,' ',,'',,' 
-                                               """;
+                                              """;
     Assert.assertEquals(expected,ASCIILogos.AMC_UNTITLED.getVal());
 }
 
@@ -161,7 +161,7 @@ public void TestASCII_NEW_ROMAN()
  __,  _, _,____,_, _,____, 
 (-|  (-|  (-|  (-|  (-(__  
  _|__,_|__/_|__/_|__/____) 
-(    (    (    (    (       """;
+(    (    (    (    (      """;
     Assert.assertEquals(expected,ASCIILogos.ASCII_NEW_ROMAN.getVal());
 }
 
@@ -176,7 +176,7 @@ L    u  u  ddd u  u  ss
 L    u  u d  d u  u  s  
 LLLL  uuu  ddd  uuu ss  
                         
-                         """;
+                        """;
     Assert.assertEquals(expected,ASCIILogos.ALPHABET.getVal());
 }
 
@@ -185,7 +185,7 @@ LLLL  uuu  ddd  uuu ss
 public void TestBONEFF()
 {
     String expected = """
-|_|_||)|_|5 """;
+|_|_||)|_|5""";
     Assert.assertEquals(expected,ASCIILogos.BONEFF.getVal());
 }
 
@@ -199,23 +199,8 @@ public void TestAVATAR()
 | |   | | ||| | \\|| | |||    \\
 | |_/\\| \\_/|| |_/|| \\_/|\\___ |
 \\____/\\____/\\____/\\____/\\____/
-                               """;
+                              """;
     Assert.assertEquals(expected,ASCIILogos.AVATAR.getVal());
-}
-
-
-@Test
-public void TestBANNERTHREE()
-{
-    String expected = """
-##       ##     ## ########  ##     ##  ######  
-##       ##     ## ##     ## ##     ## ##    ## 
-##       ##     ## ##     ## ##     ## ##       
-##       ##     ## ##     ## ##     ##  ######  
-##       ##     ## ##     ## ##     ##       ## 
-##       ##     ## ##     ## ##     ## ##    ## 
-########  #######  ########   #######   ######   """;
-    Assert.assertEquals(expected,ASCIILogos.BANNERTHREE.getVal());
 }
 
 
@@ -229,8 +214,32 @@ public void TestBANNERFOUR()
 .##.......##.....##.##.....##.##.....##..######.
 .##.......##.....##.##.....##.##.....##.......##
 .##.......##.....##.##.....##.##.....##.##....##
-.########..#######..########...#######...######. """;
+.########..#######..########...#######...######.""";
     Assert.assertEquals(expected,ASCIILogos.BANNERFOUR.getVal());
+}
+
+
+@Test
+public void TestBANNERTHREE()
+{
+    String expected = """
+##       ##     ## ########  ##     ##  ######  
+##       ##     ## ##     ## ##     ## ##    ## 
+##       ##     ## ##     ## ##     ## ##       
+##       ##     ## ##     ## ##     ##  ######  
+##       ##     ## ##     ## ##     ##       ## 
+##       ##     ## ##     ## ##     ## ##    ## 
+########  #######  ########   #######   ######  """;
+    Assert.assertEquals(expected,ASCIILogos.BANNERTHREE.getVal());
+}
+
+
+@Test
+public void TestBENJAMIN()
+{
+    String expected = """
+|_|_||)|_|_\\\"""";
+    Assert.assertEquals(expected,ASCIILogos.BENJAMIN.getVal());
 }
 
 
@@ -243,17 +252,8 @@ public void TestBELL()
  |     |   |  /   | |   |  (    
  |     |   | ,'   | |   |  `--. 
  /---/ `._/| `___,' `._/| \\___.'
-                  `              """;
+                  `             """;
     Assert.assertEquals(expected,ASCIILogos.BELL.getVal());
-}
-
-
-@Test
-public void TestBENJAMIN()
-{
-    String expected = """
-|_|_||)|_|_\\\" """;
-    Assert.assertEquals(expected,ASCIILogos.BENJAMIN.getVal());
 }
 
 
@@ -263,7 +263,7 @@ public void TestBIGFIG()
     String expected = """
                
 |      _|    _ 
-|__|_|(_||_|_>  """;
+|__|_|(_||_|_> """;
     Assert.assertEquals(expected,ASCIILogos.BIGFIG.getVal());
 }
 
@@ -272,22 +272,8 @@ public void TestBIGFIG()
 public void TestBINARY()
 {
     String expected = """
-01001100 01110101 01100100 01110101 01110011  """;
+01001100 01110101 01100100 01110101 01110011 """;
     Assert.assertEquals(expected,ASCIILogos.BINARY.getVal());
-}
-
-
-@Test
-public void TestBRIGHT()
-{
-    String expected = """
-.##......##..##..#####...##..##...####..
-.##......##..##..##..##..##..##..##.....
-.##......##..##..##..##..##..##...####..
-.##......##..##..##..##..##..##......##.
-.######...####...#####....####....####..
-........................................ """;
-    Assert.assertEquals(expected,ASCIILogos.BRIGHT.getVal());
 }
 
 
@@ -297,7 +283,7 @@ public void TestBROADWAY_KB()
     String expected = """
  _     _     ___   _     __  
 | |   | | | | | \\ | | | ( (` 
-|_|__ \\_\\_/ |_|_/ \\_\\_/ _)_)  """;
+|_|__ \\_\\_/ |_|_/ \\_\\_/ _)_) """;
     Assert.assertEquals(expected,ASCIILogos.BROADWAY_KB.getVal());
 }
 
@@ -310,7 +296,7 @@ public void TestBRACED()
 } |   | } { |} {-. \\| } { |{ {__-` 
 } '--.\\ `-' /} '-} /\\ `-' /.-._} } 
 `----' `---' `----'  `---' `----'  
-                                    """;
+                                   """;
     Assert.assertEquals(expected,ASCIILogos.BRACED.getVal());
 }
 
@@ -322,8 +308,22 @@ public void TestBULBHEAD()
  __    __  __  ____  __  __  ___ 
 (  )  (  )(  )(  _ \\(  )(  )/ __)
  )(__  )(__)(  )(_) ))(__)( \\__ \\
-(____)(______)(____/(______)(___/ """;
+(____)(______)(____/(______)(___/""";
     Assert.assertEquals(expected,ASCIILogos.BULBHEAD.getVal());
+}
+
+
+@Test
+public void TestBRIGHT()
+{
+    String expected = """
+.##......##..##..#####...##..##...####..
+.##......##..##..##..##..##..##..##.....
+.##......##..##..##..##..##..##...####..
+.##......##..##..##..##..##..##......##.
+.######...####...#####....####....####..
+........................................""";
+    Assert.assertEquals(expected,ASCIILogos.BRIGHT.getVal());
 }
 
 
@@ -333,7 +333,7 @@ public void TestCALVIN_S()
     String expected = """
 ╦  ┬ ┬┌┬┐┬ ┬┌─┐
 ║  │ │ │││ │└─┐
-╩═╝└─┘─┴┘└─┘└─┘ """;
+╩═╝└─┘─┴┘└─┘└─┘""";
     Assert.assertEquals(expected,ASCIILogos.CALVIN_S.getVal());
 }
 
@@ -347,7 +347,7 @@ public void TestCARDS()
 | :/\\: || (\\/) || :/\\: || (\\/) || :/\\: |
 | (__) || :\\/: || (__) || :\\/: || :\\/: |
 | '--'L|| '--'U|| '--'D|| '--'U|| '--'S|
-`------'`------'`------'`------'`------' """;
+`------'`------'`------'`------'`------'""";
     Assert.assertEquals(expected,ASCIILogos.CARDS.getVal());
 }
 
@@ -360,20 +360,8 @@ public void TestCHUNKY()
 |     |_.--.--.--|  |.--.--.-----.
 |       |  |  |  _  ||  |  |__ --|
 |_______|_____|_____||_____|_____|
-                                   """;
+                                  """;
     Assert.assertEquals(expected,ASCIILogos.CHUNKY.getVal());
-}
-
-
-@Test
-public void TestCONTESSA()
-{
-    String expected = """
-.        .      
-|   . . _|. . __
-|___(_|(_](_|_) 
-                 """;
-    Assert.assertEquals(expected,ASCIILogos.CONTESSA.getVal());
 }
 
 
@@ -386,8 +374,34 @@ public void TestCOLA()
      .:'        ,  :   .-..'    ,  :      . 
     .:'        ;   ;  :   ;    ;   ;    .'; 
   .-:.    .-..'`..:;._`:::'`..'`..:;._.' .' 
- (_/ `;._.                           '       """;
+ (_/ `;._.                           '      """;
     Assert.assertEquals(expected,ASCIILogos.COLA.getVal());
+}
+
+
+@Test
+public void TestCONTESSA()
+{
+    String expected = """
+.        .      
+|   . . _|. . __
+|___(_|(_](_|_) 
+                """;
+    Assert.assertEquals(expected,ASCIILogos.CONTESSA.getVal());
+}
+
+
+@Test
+public void TestCONTRAST()
+{
+    String expected = """
+.%%......%%..%%..%%%%%...%%..%%...%%%%..
+.%%......%%..%%..%%..%%..%%..%%..%%.....
+.%%......%%..%%..%%..%%..%%..%%...%%%%..
+.%%......%%..%%..%%..%%..%%..%%......%%.
+.%%%%%%...%%%%...%%%%%....%%%%....%%%%..
+........................................""";
+    Assert.assertEquals(expected,ASCIILogos.CONTRAST.getVal());
 }
 
 
@@ -401,52 +415,8 @@ public void TestCOMPUTER()
 88    8e  8 8e  8 8e  8 8eeee 
 88    88  8 88  8 88  8    88 
 88eee 88ee8 88ee8 88ee8 8ee88 
-                               """;
+                              """;
     Assert.assertEquals(expected,ASCIILogos.COMPUTER.getVal());
-}
-
-
-@Test
-public void TestCOSMIKE()
-{
-    String expected = """
- :::      ...    ::::::::::-.   ...    ::: .::::::. 
- ;;;      ;;     ;;; ;;,   `';, ;;     ;;;;;;`    ` 
- [[[     [['     [[[ `[[     [[[['     [[['[==/[[[[,
- $$'     $$      $$$  $$,    $$$$      $$$  '''    $
-o88oo,.__88    .d888  888_,o8P'88    .d888 88b    dP
-\"\"\"\"YUMMM \"YmmMMMM\"\"  MMMMP\"`   \"YmmMMMM\"\"  \"YMmMY\"  """;
-    Assert.assertEquals(expected,ASCIILogos.COSMIKE.getVal());
-}
-
-
-@Test
-public void TestCONTRAST()
-{
-    String expected = """
-.%%......%%..%%..%%%%%...%%..%%...%%%%..
-.%%......%%..%%..%%..%%..%%..%%..%%.....
-.%%......%%..%%..%%..%%..%%..%%...%%%%..
-.%%......%%..%%..%%..%%..%%..%%......%%.
-.%%%%%%...%%%%...%%%%%....%%%%....%%%%..
-........................................ """;
-    Assert.assertEquals(expected,ASCIILogos.CONTRAST.getVal());
-}
-
-
-@Test
-public void TestCRAWFORDTWO()
-{
-    String expected = """
- _      __ __  ___    __ __  _____
-| |    |  |  ||   \\  |  |  |/ ___/
-| |    |  |  ||    \\ |  |  (   \\_ 
-| |___ |  |  ||  D  ||  |  |\\__  |
-|     ||  :  ||     ||  :  |/  \\ |
-|     ||     ||     ||     |\\    |
-|_____| \\__,_||_____| \\__,_| \\___|
-                                   """;
-    Assert.assertEquals(expected,ASCIILogos.CRAWFORDTWO.getVal());
 }
 
 
@@ -461,8 +431,50 @@ public void TestCRAWFORD()
 |     T|  :  ||     ||  :  |/  \\ |
 |     |l     ||     |l     |\\    |
 l_____j \\__,_jl_____j \\__,_j \\___j
-                                   """;
+                                  """;
     Assert.assertEquals(expected,ASCIILogos.CRAWFORD.getVal());
+}
+
+
+@Test
+public void TestCOSMIKE()
+{
+    String expected = """
+ :::      ...    ::::::::::-.   ...    ::: .::::::. 
+ ;;;      ;;     ;;; ;;,   `';, ;;     ;;;;;;`    ` 
+ [[[     [['     [[[ `[[     [[[['     [[['[==/[[[[,
+ $$'     $$      $$$  $$,    $$$$      $$$  '''    $
+o88oo,.__88    .d888  888_,o8P'88    .d888 88b    dP
+\"\"\"\"YUMMM \"YmmMMMM\"\"  MMMMP\"`   \"YmmMMMM\"\"  \"YMmMY\" """;
+    Assert.assertEquals(expected,ASCIILogos.COSMIKE.getVal());
+}
+
+
+@Test
+public void TestCRAWFORDTWO()
+{
+    String expected = """
+ _      __ __  ___    __ __  _____
+| |    |  |  ||   \\  |  |  |/ ___/
+| |    |  |  ||    \\ |  |  (   \\_ 
+| |___ |  |  ||  D  ||  |  |\\__  |
+|     ||  :  ||     ||  :  |/  \\ |
+|     ||     ||     ||     |\\    |
+|_____| \\__,_||_____| \\__,_| \\___|
+                                  """;
+    Assert.assertEquals(expected,ASCIILogos.CRAWFORDTWO.getVal());
+}
+
+
+@Test
+public void TestCYBERLARGE()
+{
+    String expected = """
+        _     _ ______  _     _ _______
+ |      |     | |     \\ |     | |______
+ |_____ |_____| |_____/ |_____| ______|
+                                       """;
+    Assert.assertEquals(expected,ASCIILogos.CYBERLARGE.getVal());
 }
 
 
@@ -475,20 +487,8 @@ public void TestCURSIVE()
  /   . . __/ . . _  
 /___(_/_(_/_(_/_/_)_
                     
-                     """;
+                    """;
     Assert.assertEquals(expected,ASCIILogos.CURSIVE.getVal());
-}
-
-
-@Test
-public void TestCYBERLARGE()
-{
-    String expected = """
-        _     _ ______  _     _ _______
- |      |     | |     \\ |     | |______
- |_____ |_____| |_____/ |_____| ______|
-                                        """;
-    Assert.assertEquals(expected,ASCIILogos.CYBERLARGE.getVal());
 }
 
 
@@ -499,7 +499,7 @@ public void TestCYBERMEDIUM()
 _    _  _ ___  _  _ ____ 
 |    |  | |  \\ |  | [__  
 |___ |__| |__/ |__| ___] 
-                          """;
+                         """;
     Assert.assertEquals(expected,ASCIILogos.CYBERMEDIUM.getVal());
 }
 
@@ -509,7 +509,7 @@ public void TestCYBERSMALL()
 {
     String expected = """
  _    _  _ ___  _  _ ____
- |___ |__| |__> |__| ==== """;
+ |___ |__| |__> |__| ====""";
     Assert.assertEquals(expected,ASCIILogos.CYBERSMALL.getVal());
 }
 
@@ -522,7 +522,7 @@ public void TestCYGNET()
 .       .      
 |  . ..-| . ..-
 '-''-'`-'-'-'-'
-                """;
+               """;
     Assert.assertEquals(expected,ASCIILogos.CYGNET.getVal());
 }
 
@@ -534,7 +534,7 @@ public void TestDANCFOUR()
  |_O    \\O'\\   /`\\O   |_O_|
   _#>    |_ \\ /   |_   _|  
 _|  \\   /  | Y   /  |_|  \\ 
-    |_./   |_O\\./   |_   |_ """;
+    |_./   |_O\\./   |_   |_""";
     Assert.assertEquals(expected,ASCIILogos.DANCFOUR.getVal());
 }
 
@@ -552,7 +552,7 @@ Lu us
   X  
      
 Ludus
-      """;
+     """;
     Assert.assertEquals(expected,ASCIILogos.DWHISTLED.getVal());
 }
 
@@ -561,7 +561,7 @@ Ludus
 public void TestDECIMAL()
 {
     String expected = """
-76 117 100 117 115  """;
+76 117 100 117 115 """;
     Assert.assertEquals(expected,ASCIILogos.DECIMAL.getVal());
 }
 
@@ -575,7 +575,7 @@ public void TestDIET_COLA()
      /      )  (  .-../ )  (   .   
     /      (    )(   / (    ) / \\  
  .-/.    .-.`--': `-'-..`--':/ ._) 
-(_/ `-._.                   /       """;
+(_/ `-._.                   /      """;
     Assert.assertEquals(expected,ASCIILogos.DIET_COLA.getVal());
 }
 
@@ -591,7 +591,7 @@ public void TestDOOM()
 | |___| |_| | (_| | |_| \\__ \\
 \\_____/\\__,_|\\__,_|\\__,_|___/
                              
-                              """;
+                             """;
     Assert.assertEquals(expected,ASCIILogos.DOOM.getVal());
 }
 
@@ -602,7 +602,7 @@ public void TestDOUBLE_SHORTS()
     String expected = """
 __    __ __ _____ __ __   __ 
 ||    || || ||  ) || ||  ((  
-||__| \\\\_// ||_// \\\\_// \\_))  """;
+||__| \\\\_// ||_// \\\\_// \\_)) """;
     Assert.assertEquals(expected,ASCIILogos.DOUBLE_SHORTS.getVal());
 }
 
@@ -615,7 +615,7 @@ public void TestDOUBLE()
  ||    || || || \\\\  || || (( \\
  ||    || || ||  )) || ||  \\\\ 
  ||__| \\\\_// ||_//  \\\\_// \\_))
-                               """;
+                              """;
     Assert.assertEquals(expected,ASCIILogos.DOUBLE.getVal());
 }
 
@@ -628,7 +628,7 @@ public void TestDR_PEPPER()
 | |   _ _  _| | _ _  ___
 | |_ | | |/ . || | |<_-<
 |___|`___|\\___|`___|/__/
-                         """;
+                        """;
     Assert.assertEquals(expected,ASCIILogos.DR_PEPPER.getVal());
 }
 
@@ -641,7 +641,7 @@ public void TestEFTI_FONT()
 | |    ||   _ 
 | |_|U/o||U(c'
 |___\\_|_|\\_|_)
-               """;
+              """;
     Assert.assertEquals(expected,ASCIILogos.EFTI_FONT.getVal());
 }
 
@@ -652,7 +652,7 @@ public void TestEFTI_PITI()
     String expected = """
 ||     
 L_]udus
-        """;
+       """;
     Assert.assertEquals(expected,ASCIILogos.EFTI_PITI.getVal());
 }
 
@@ -665,33 +665,8 @@ public void TestEFTI_CHESS()
   |:+:|  
   (o:o)  
    (:)   
-          """;
+         """;
     Assert.assertEquals(expected,ASCIILogos.EFTI_CHESS.getVal());
-}
-
-
-@Test
-public void TestEFTI_ITALIC()
-{
-    String expected = """
-   __                
-  / /       _//    __
- / /_ /7/7,'o//7/7(c'
-/___//__/|__//__//__)
-                      """;
-    Assert.assertEquals(expected,ASCIILogos.EFTI_ITALIC.getVal());
-}
-
-
-@Test
-public void TestEFTI_WATER()
-{
-    String expected = """
- _          _         
- ))  _    __)) _    __
-((__((_( ((_( ((_( _))
-                       """;
-    Assert.assertEquals(expected,ASCIILogos.EFTI_WATER.getVal());
 }
 
 
@@ -704,20 +679,33 @@ public void TestEFTI_ROBOT()
 | |   _ _  _| | _ _  __ 
 ( )_ ( U )/ o )( U )(_' 
 /___\\/___\\\\___\\/___\\/__)
-                         """;
+                        """;
     Assert.assertEquals(expected,ASCIILogos.EFTI_ROBOT.getVal());
 }
 
 
 @Test
-public void TestEFTI_WALL()
+public void TestEFTI_ITALIC()
 {
     String expected = """
-                    o               ...            o                     
-     _/7         ` /_\\ '       o,*,(o o)        ` /_\\ '      `  _ ,  '   
-    (o o)       - (o o) -     8(o o)(_)Ooo     - (o o) -    -  (o)o)  -  
-ooO--(_)--Ooo-ooO--(_)--Ooo-ooO-(_)---Ooo----ooO--(_)--Ooo--ooO'(_)--Ooo- """;
-    Assert.assertEquals(expected,ASCIILogos.EFTI_WALL.getVal());
+   __                
+  / /       _//    __
+ / /_ /7/7,'o//7/7(c'
+/___//__/|__//__//__)
+                     """;
+    Assert.assertEquals(expected,ASCIILogos.EFTI_ITALIC.getVal());
+}
+
+
+@Test
+public void TestEFTI_WATER()
+{
+    String expected = """
+ _          _         
+ ))  _    __)) _    __
+((__((_( ((_( ((_( _))
+                      """;
+    Assert.assertEquals(expected,ASCIILogos.EFTI_WATER.getVal());
 }
 
 
@@ -729,8 +717,33 @@ public void TestELITE()
 ██•  █▪██▌██▪ ██ █▪██▌▐█ ▀. 
 ██▪  █▌▐█▌▐█· ▐█▌█▌▐█▌▄▀▀▀█▄
 ▐█▌▐▌▐█▄█▌██. ██ ▐█▄█▌▐█▄▪▐█
-.▀▀▀  ▀▀▀ ▀▀▀▀▀•  ▀▀▀  ▀▀▀▀  """;
+.▀▀▀  ▀▀▀ ▀▀▀▀▀•  ▀▀▀  ▀▀▀▀ """;
     Assert.assertEquals(expected,ASCIILogos.ELITE.getVal());
+}
+
+
+@Test
+public void TestEFTI_WALL()
+{
+    String expected = """
+                    o               ...            o                     
+     _/7         ` /_\\ '       o,*,(o o)        ` /_\\ '      `  _ ,  '   
+    (o o)       - (o o) -     8(o o)(_)Ooo     - (o o) -    -  (o)o)  -  
+ooO--(_)--Ooo-ooO--(_)--Ooo-ooO-(_)---Ooo----ooO--(_)--Ooo--ooO'(_)--Ooo-""";
+    Assert.assertEquals(expected,ASCIILogos.EFTI_WALL.getVal());
+}
+
+
+@Test
+public void TestFILTER()
+{
+    String expected = """
+888      888  888   88PPP. 888  888 88888888  
+888      888  888   88   8 888  888 88ooooPp  
+888      888  888   88   8 888  888        d8 
+888PPPPP 888PP888   88oop' 888PP888 8888888P  
+                                              """;
+    Assert.assertEquals(expected,ASCIILogos.FILTER.getVal());
 }
 
 
@@ -744,33 +757,20 @@ public void TestFENDER()
  ||      ||  ||  ||  ||   ||  ||   `'') 
 .||...|  `|..'|. `|..||.  `|..'|. `...' 
                                         
-                                         """;
+                                        """;
     Assert.assertEquals(expected,ASCIILogos.FENDER.getVal());
 }
 
 
 @Test
-public void TestFLIPPED()
+public void TestFOUR_TOPS()
 {
     String expected = """
-       ____  ____  ____  _ __ 
- ____ |   _|| __ ||   _|| |  \\
-|  __||  |_ | |/ ||  |_ | || |
-|_|   |____|\\___/ |____|\\__|_| """;
-    Assert.assertEquals(expected,ASCIILogos.FLIPPED.getVal());
-}
-
-
-@Test
-public void TestFILTER()
-{
-    String expected = """
-888      888  888   88PPP. 888  888 88888888  
-888      888  888   88   8 888  888 88ooooPp  
-888      888  888   88   8 888  888        d8 
-888PPPPP 888PP888   88oop' 888PP888 8888888P  
-                                               """;
-    Assert.assertEquals(expected,ASCIILogos.FILTER.getVal());
+|         |       
+| |   |/~~||   |(~
+|__\\_/|\\__| \\_/|_)
+                  """;
+    Assert.assertEquals(expected,ASCIILogos.FOUR_TOPS.getVal());
 }
 
 
@@ -784,20 +784,20 @@ public void TestFUN_FACE()
    | \\   / /    \\ \\ .'  |/ /    \\ \\   `. | 
    |  `. | \\____/ |((_) || \\____/ |   _| | 
   (.-.__)'. `--' .` `-`.)'. `--' .`,-'   | 
-   `-'     `-..-'      (   `-..-' (_..--'   """;
+   `-'     `-..-'      (   `-..-' (_..--'  """;
     Assert.assertEquals(expected,ASCIILogos.FUN_FACE.getVal());
 }
 
 
 @Test
-public void TestFOUR_TOPS()
+public void TestFLIPPED()
 {
     String expected = """
-|         |       
-| |   |/~~||   |(~
-|__\\_/|\\__| \\_/|_)
-                   """;
-    Assert.assertEquals(expected,ASCIILogos.FOUR_TOPS.getVal());
+       ____  ____  ____  _ __ 
+ ____ |   _|| __ ||   _|| |  \\
+|  __||  |_ | |/ ||  |_ | || |
+|_|   |____|\\___/ |____|\\__|_|""";
+    Assert.assertEquals(expected,ASCIILogos.FLIPPED.getVal());
 }
 
 
@@ -811,34 +811,8 @@ public void TestFUZZY()
 : :__ : :; :' .; :: :; :`._-.'
 :___.'`.__.'`.__.'`.__.'`.__.'
                               
-                               """;
+                              """;
     Assert.assertEquals(expected,ASCIILogos.FUZZY.getVal());
-}
-
-
-@Test
-public void TestGLENYN()
-{
-    String expected = """
-__   _    ___  _    ___  
-| |  || \\ |  \\ || \\ | _\\ 
-| |__||_|\\| . \\||_|\\[__ \\
-|___/|___/|___/|___/|___/ """;
-    Assert.assertEquals(expected,ASCIILogos.GLENYN.getVal());
-}
-
-
-@Test
-public void TestGOOFY()
-{
-    String expected = """
-     ____    ___    _     ___    ___    __       __
-\\   |    |  |   |  | |    \\  |  |   |  |  )  ____) 
- |  |    |  |   |  | |     | |  |   |  | (  (___   
- |  |    |  |   |  | |     | |  |   |  |  \\___  \\  
- |  |__  |   \\_/   | |     | |   \\_/   |  ____)  ) 
-/      )__\\       /__|    /___\\       /__(      (__ """;
-    Assert.assertEquals(expected,ASCIILogos.GOOFY.getVal());
 }
 
 
@@ -851,20 +825,34 @@ public void TestGRAFFITI()
 |    |   |  |  \\/ __ |  |  \\/  ___/
 |    |___|  |  / /_/ |  |  /\\___ \\ 
 |_______ \\____/\\____ |____//____  >
-        \\/          \\/          \\/  """;
+        \\/          \\/          \\/ """;
     Assert.assertEquals(expected,ASCIILogos.GRAFFITI.getVal());
 }
 
 
 @Test
-public void TestHEART_LEFT()
+public void TestGOOFY()
 {
     String expected = """
- .-.-. .-.-. .-.-. .-.-. .-.-. 
-( L .'( u .'( d .'( u .'( s .' 
- `.(   `.(   `.(   `.(   `.(   
-                                """;
-    Assert.assertEquals(expected,ASCIILogos.HEART_LEFT.getVal());
+     ____    ___    _     ___    ___    __       __
+\\   |    |  |   |  | |    \\  |  |   |  |  )  ____) 
+ |  |    |  |   |  | |     | |  |   |  | (  (___   
+ |  |    |  |   |  | |     | |  |   |  |  \\___  \\  
+ |  |__  |   \\_/   | |     | |   \\_/   |  ____)  ) 
+/      )__\\       /__|    /___\\       /__(      (__""";
+    Assert.assertEquals(expected,ASCIILogos.GOOFY.getVal());
+}
+
+
+@Test
+public void TestGLENYN()
+{
+    String expected = """
+__   _    ___  _    ___  
+| |  || \\ |  \\ || \\ | _\\ 
+| |__||_|\\| . \\||_|\\[__ \\
+|___/|___/|___/|___/|___/""";
+    Assert.assertEquals(expected,ASCIILogos.GLENYN.getVal());
 }
 
 
@@ -875,8 +863,20 @@ public void TestHEART_RIGHT()
 .-.-. .-.-. .-.-. .-.-. .-.-.  
 '. L )'. u )'. d )'. u )'. s ) 
   ).'   ).'   ).'   ).'   ).'  
-                                """;
+                               """;
     Assert.assertEquals(expected,ASCIILogos.HEART_RIGHT.getVal());
+}
+
+
+@Test
+public void TestHEART_LEFT()
+{
+    String expected = """
+ .-.-. .-.-. .-.-. .-.-. .-.-. 
+( L .'( u .'( d .'( u .'( s .' 
+ `.(   `.(   `.(   `.(   `.(   
+                               """;
+    Assert.assertEquals(expected,ASCIILogos.HEART_LEFT.getVal());
 }
 
 
@@ -884,7 +884,7 @@ public void TestHEART_RIGHT()
 public void TestHEX()
 {
     String expected = """
-4C 75 64 75 73  """;
+4C 75 64 75 73 """;
     Assert.assertEquals(expected,ASCIILogos.HEX.getVal());
 }
 
@@ -896,7 +896,7 @@ public void TestHIEROGLYPHS()
   ,-.       ,-.<~)_        _       <~)_   ,-. 
  <,- \\_____/  ` ( v~\\  __,(: `,_,.  ( v~\\ | | 
    /  ___. \\     \\_/' (.-_-   __ |   \\_/' | ' 
-,_(__/ ,_(__\\    /\\     `----'  -'   /\\   |    """;
+,_(__/ ,_(__\\    /\\     `----'  -'   /\\   |   """;
     Assert.assertEquals(expected,ASCIILogos.HIEROGLYPHS.getVal());
 }
 
@@ -910,7 +910,7 @@ public void TestHORIZONTAL_LEFT()
       / |  _____\\ | | '._.' |  _____\\ | / _ \\_\\ | 
       \\_| \\______.` '._____.' \\______.` |_\\`.___/ 
                                                   
-                                                   """;
+                                                  """;
     Assert.assertEquals(expected,ASCIILogos.HORIZONTAL_LEFT.getVal());
 }
 
@@ -931,7 +931,7 @@ Ludus
      
      
      
-      """;
+     """;
     Assert.assertEquals(expected,ASCIILogos.ICL_ONE900.getVal());
 }
 
@@ -945,7 +945,7 @@ public void TestHORIZONTAL_RIGHT()
 | \\       | /_____  | '._.' | | /_____  | /_/ _ \\ 
 |_/       '.______/ '._____.' '.______/ \\___.'/_| 
                                                   
-                                                   """;
+                                                  """;
     Assert.assertEquals(expected,ASCIILogos.HORIZONTAL_RIGHT.getVal());
 }
 
@@ -959,7 +959,7 @@ public void TestINVITA()
 (, /       _(/     _  
   /   (_(_(_(_(_(_/_)_
  (_____               
-        )              """;
+        )             """;
     Assert.assertEquals(expected,ASCIILogos.INVITA.getVal());
 }
 
@@ -971,7 +971,7 @@ public void TestITALIC()
              
  /    _/   _ 
 (__(/(/(/_)  
-              """;
+             """;
     Assert.assertEquals(expected,ASCIILogos.ITALIC.getVal());
 }
 
@@ -982,7 +982,7 @@ public void TestJS_BLOCK_LETTERS()
     String expected = """
  _    __ __  ____  __ __  ____ 
 | |__|  |  || _) \\|  |  |(_ (_`
-|____|\\___/ |____/ \\___/.__)__) """;
+|____|\\___/ |____/ \\___/.__)__)""";
     Assert.assertEquals(expected,ASCIILogos.JS_BLOCK_LETTERS.getVal());
 }
 
@@ -994,7 +994,7 @@ public void TestJS_BRACKET_LETTERS()
 .-.   .-. .-..----. .-. .-. .----.
 | |   | { } || {}  \\| { } |{ {__  
 | `--.| {_} ||     /| {_} |.-._} }
-`----'`-----'`----' `-----'`----'  """;
+`----'`-----'`----' `-----'`----' """;
     Assert.assertEquals(expected,ASCIILogos.JS_BRACKET_LETTERS.getVal());
 }
 
@@ -1006,7 +1006,7 @@ public void TestJS_CAPITAL_CURVES()
  __    __   _, ____, __   _, ____ 
 (-|   (-|  |  (-|  \\(-|  |  (-(__`
  _|__,  |__|_, _|__/  |__|_, ____)
-(             (             (      """;
+(             (             (     """;
     Assert.assertEquals(expected,ASCIILogos.JS_CAPITAL_CURVES.getVal());
 }
 
@@ -1020,7 +1020,7 @@ public void TestJS_CURSIVE()
 _(/__(_/__(_/(__(_/__/_)_
                          
                          
-                          """;
+                         """;
     Assert.assertEquals(expected,ASCIILogos.JS_CURSIVE.getVal());
 }
 
@@ -1032,7 +1032,7 @@ public void TestJS_STICK_LETTERS()
            __        __  
 |    |  | |  \\ |  | /__` 
 |___ \\__/ |__/ \\__/ .__/ 
-                          """;
+                         """;
     Assert.assertEquals(expected,ASCIILogos.JS_STICK_LETTERS.getVal());
 }
 
@@ -1047,8 +1047,28 @@ public void TestKBAN()
  ||        ||  ||   |.   ||   ||  ||  . '|.. 
 .||.....|  '|..'|.  '|..'||.  '|..'|. |'..|' 
                                              
-                                              """;
+                                             """;
     Assert.assertEquals(expected,ASCIILogos.KBAN.getVal());
+}
+
+
+@Test
+public void TestKONTO_SLANT()
+{
+    String expected = """
+ / / /  /`. / /  /�� 
+/. L/  /.-� L/  ../  """;
+    Assert.assertEquals(expected,ASCIILogos.KONTO_SLANT.getVal());
+}
+
+
+@Test
+public void TestKONTO()
+{
+    String expected = """
+I   I  I I`. I  I /�� 
+L.. `..I I./ `..I ..7 """;
+    Assert.assertEquals(expected,ASCIILogos.KONTO.getVal());
 }
 
 
@@ -1059,28 +1079,8 @@ public void TestKNOB()
  _________  _________  _________  _________  _   _____ 
 (  _______)(  _______)(  _____  )(  _______)( ) (  _  )
 | |        | |_______  \\ \\___/ / | |_______ | |_| | | |
-(_)        (_________)  (_____)  (_________)(_____) (_) """;
+(_)        (_________)  (_____)  (_________)(_____) (_)""";
     Assert.assertEquals(expected,ASCIILogos.KNOB.getVal());
-}
-
-
-@Test
-public void TestKONTO_SLANT()
-{
-    String expected = """
- / / /  /`. / /  /�� 
-/. L/  /.-� L/  ../   """;
-    Assert.assertEquals(expected,ASCIILogos.KONTO_SLANT.getVal());
-}
-
-
-@Test
-public void TestKONTO()
-{
-    String expected = """
-I   I  I I`. I  I /�� 
-L.. `..I I./ `..I ..7  """;
-    Assert.assertEquals(expected,ASCIILogos.KONTO.getVal());
 }
 
 
@@ -1093,7 +1093,7 @@ public void TestLCD()
 |              -|          -  
 |     | |     | | | |      \\  
  ---   --      -   --      -  
-                               """;
+                              """;
     Assert.assertEquals(expected,ASCIILogos.LCD.getVal());
 }
 
@@ -1107,20 +1107,8 @@ LL      uu   uu      dd uu   uu  sss
 LL      uu   uu  dddddd uu   uu s     
 LL      uu   uu dd   dd uu   uu  sss  
 LLLLLLL  uuuu u  dddddd  uuuu u     s 
-                                 sss   """;
+                                 sss  """;
     Assert.assertEquals(expected,ASCIILogos.LETTERS.getVal());
-}
-
-
-@Test
-public void TestLINUX()
-{
-    String expected = """
-.-.   .-..-..--. .-..-..---.
-| |__ | || || \\ \\| || | \\ \\ 
-`----'`----'`-'-'`----'`---'
-                             """;
-    Assert.assertEquals(expected,ASCIILogos.LINUX.getVal());
 }
 
 
@@ -1132,8 +1120,20 @@ public void TestLINE_BLOCKS()
 | |      | |  | | | | \\ \\  | |  | | / |      
 | |   _  | |  | | | |  | | | |  | | '------. 
 |_|__|_| \\_|__|_| |_|_/_/  \\_|__|_|  ____|_/ 
-                                              """;
+                                             """;
     Assert.assertEquals(expected,ASCIILogos.LINE_BLOCKS.getVal());
+}
+
+
+@Test
+public void TestLINUX()
+{
+    String expected = """
+.-.   .-..-..--. .-..-..---.
+| |__ | || || \\ \\| || | \\ \\ 
+`----'`----'`-'-'`----'`---'
+                            """;
+    Assert.assertEquals(expected,ASCIILogos.LINUX.getVal());
 }
 
 
@@ -1144,20 +1144,8 @@ public void TestLOCKERGNOME()
 ::|           :|           
 ::|    :\\:| :':| :\\:| <::< 
 ::::::|`::| :::| `::| >::> 
-                            """;
+                           """;
     Assert.assertEquals(expected,ASCIILogos.LOCKERGNOME.getVal());
-}
-
-
-@Test
-public void TestMAXFOUR()
-{
-    String expected = """
-|         |       
-| |   |/~~||   |(~
-|__\\_/|\\__| \\_/|_)
-                   """;
-    Assert.assertEquals(expected,ASCIILogos.MAXFOUR.getVal());
 }
 
 
@@ -1168,8 +1156,20 @@ public void TestMADRID()
 /         |         
 |   | | /=| | | /== 
 \\=/ \\=/ \\=| \\=/ ==/ 
-                     """;
+                    """;
     Assert.assertEquals(expected,ASCIILogos.MADRID.getVal());
+}
+
+
+@Test
+public void TestMAXFOUR()
+{
+    String expected = """
+|         |       
+| |   |/~~||   |(~
+|__\\_/|\\__| \\_/|_)
+                  """;
+    Assert.assertEquals(expected,ASCIILogos.MAXFOUR.getVal());
 }
 
 
@@ -1179,8 +1179,17 @@ public void TestMIKE()
     String expected = """
   |      |       
   | |/| \\| |/| //
-                  """;
+                 """;
     Assert.assertEquals(expected,ASCIILogos.MIKE.getVal());
+}
+
+
+@Test
+public void TestMORSE()
+{
+    String expected = """
+.-.. ..- -.. ..- ... """;
+    Assert.assertEquals(expected,ASCIILogos.MORSE.getVal());
 }
 
 
@@ -1194,17 +1203,8 @@ public void TestMODULAR()
 |   |    |  |_|  || | |   ||  |_|  || |_____ 
 |   |___ |       || |_|   ||       ||_____  |
 |       ||       ||       ||       | _____| |
-|_______||_______||______| |_______||_______| """;
+|_______||_______||______| |_______||_______|""";
     Assert.assertEquals(expected,ASCIILogos.MODULAR.getVal());
-}
-
-
-@Test
-public void TestMORSE()
-{
-    String expected = """
-.-.. ..- -.. ..- ...  """;
-    Assert.assertEquals(expected,ASCIILogos.MORSE.getVal());
 }
 
 
@@ -1212,7 +1212,7 @@ public void TestMORSE()
 public void TestMORSETWO()
 {
     String expected = """
-.-.. ..- -.. ..- ...  """;
+.-.. ..- -.. ..- ... """;
     Assert.assertEquals(expected,ASCIILogos.MORSETWO.getVal());
 }
 
@@ -1226,20 +1226,8 @@ public void TestMOSCOW()
  #  #  # #   #  #   # #  #     
  #  #   #    #  #    #   #     
  #  #  #     ####   #    #     
-#   # #     #    # #      ####  """;
+#   # #     #    # #      #### """;
     Assert.assertEquals(expected,ASCIILogos.MOSCOW.getVal());
-}
-
-
-@Test
-public void TestMSHEBREWTWOONE0()
-{
-    String expected = """
-        
-\"\"|'|\\ |
-  | |/\\|
-         """;
-    Assert.assertEquals(expected,ASCIILogos.MSHEBREWTWOONE0.getVal());
 }
 
 
@@ -1250,8 +1238,20 @@ public void TestMUZZLE()
                        
 |   |  |  __| |  | |<< 
 |   |  | |<<| |  | --  
-|<< '<<' |__| '<<' >>|  """;
+|<< '<<' |__| '<<' >>| """;
     Assert.assertEquals(expected,ASCIILogos.MUZZLE.getVal());
+}
+
+
+@Test
+public void TestMSHEBREWTWOONE0()
+{
+    String expected = """
+        
+\"\"|'|\\ |
+  | |/\\|
+        """;
+    Assert.assertEquals(expected,ASCIILogos.MSHEBREWTWOONE0.getVal());
 }
 
 
@@ -1259,7 +1259,7 @@ public void TestMUZZLE()
 public void TestOCTAL()
 {
     String expected = """
-114 165 144 165 163  """;
+114 165 144 165 163 """;
     Assert.assertEquals(expected,ASCIILogos.OCTAL.getVal());
 }
 
@@ -1273,7 +1273,7 @@ public void TestOGRE()
  / / | | | |/ _` | | | / __|
 / /__| |_| | (_| | |_| \\__ \\
 \\____/\\__,_|\\__,_|\\__,_|___/
-                             """;
+                            """;
     Assert.assertEquals(expected,ASCIILogos.OGRE.getVal());
 }
 
@@ -1288,7 +1288,7 @@ public void TestOLD_BANNER()
 #       #    # #    # #    #  ####  
 #       #    # #    # #    #      # 
 #       #    # #    # #    # #    # 
-#######  ####  #####   ####   ####   """;
+#######  ####  #####   ####   ####  """;
     Assert.assertEquals(expected,ASCIILogos.OLD_BANNER.getVal());
 }
 
@@ -1300,21 +1300,8 @@ public void TestPEPPER()
                
  /      _/    _
 /_,/_//_//_/_\\ 
-                """;
+               """;
     Assert.assertEquals(expected,ASCIILogos.PEPPER.getVal());
-}
-
-
-@Test
-public void TestPUZZLE()
-{
-    String expected = """
-     _        _        _        _        _    
-   _( )__   _( )__   _( )__   _( )__   _( )__ 
- _|     _|_|     _|_|     _|_|     _|_|     _|
-(_ L _ (_(_ U _ (_(_ D _ (_(_ U _ (_(_ S _ (_ 
-  |_( )__| |_( )__| |_( )__| |_( )__| |_( )__| """;
-    Assert.assertEquals(expected,ASCIILogos.PUZZLE.getVal());
 }
 
 
@@ -1329,8 +1316,32 @@ public void TestPUFFY()
 | |_( )| (_) |( (_| || (_) |\\__, \\
 (____/'`\\___/'`\\__,_)`\\___/'(____/
                                   
-                                   """;
+                                  """;
     Assert.assertEquals(expected,ASCIILogos.PUFFY.getVal());
+}
+
+
+@Test
+public void TestPUZZLE()
+{
+    String expected = """
+     _        _        _        _        _    
+   _( )__   _( )__   _( )__   _( )__   _( )__ 
+ _|     _|_|     _|_|     _|_|     _|_|     _|
+(_ L _ (_(_ U _ (_(_ D _ (_(_ U _ (_(_ S _ (_ 
+  |_( )__| |_( )__| |_( )__| |_( )__| |_( )__|""";
+    Assert.assertEquals(expected,ASCIILogos.PUZZLE.getVal());
+}
+
+
+@Test
+public void TestPYRAMID()
+{
+    String expected = """
+  ^    ^    ^    ^    ^  
+ /L\\  /u\\  /d\\  /u\\  /s\\ 
+<___><___><___><___><___>""";
+    Assert.assertEquals(expected,ASCIILogos.PYRAMID.getVal());
 }
 
 
@@ -1343,19 +1354,8 @@ public void TestRECTANGLES()
 |  |   _ _ _| |_ _ ___ 
 |  |__| | | . | | |_ -|
 |_____|___|___|___|___|
-                        """;
+                       """;
     Assert.assertEquals(expected,ASCIILogos.RECTANGLES.getVal());
-}
-
-
-@Test
-public void TestPYRAMID()
-{
-    String expected = """
-  ^    ^    ^    ^    ^  
- /L\\  /u\\  /d\\  /u\\  /s\\ 
-<___><___><___><___><___> """;
-    Assert.assertEquals(expected,ASCIILogos.PYRAMID.getVal());
 }
 
 
@@ -1363,7 +1363,7 @@ public void TestPYRAMID()
 public void TestROTONETHREE()
 {
     String expected = """
-Yhqhf """;
+Yhqhf""";
     Assert.assertEquals(expected,ASCIILogos.ROTONETHREE.getVal());
 }
 
@@ -1374,8 +1374,22 @@ public void TestROTATED()
     String expected = """
  ____  __   _    __      
 |     (__  (_)_ (__  (/) 
-                          """;
+                         """;
     Assert.assertEquals(expected,ASCIILogos.ROTATED.getVal());
+}
+
+
+@Test
+public void TestROWAN_CAP()
+{
+    String expected = """
+    dMP    dMP dMP dMMMMb  dMP dMP .dMMMb 
+   dMP    dMP dMP dMP VMP dMP dMP dMP\" VP 
+  dMP    dMP dMP dMP dMP dMP dMP  VMMMb   
+ dMP    dMP.aMP dMP.aMP dMP.aMP dP .dMP   
+dMMMMMP VMMMP\" dMMMMP\"  VMMMP\"  VMMMP\"    
+                                          """;
+    Assert.assertEquals(expected,ASCIILogos.ROWAN_CAP.getVal());
 }
 
 
@@ -1389,7 +1403,7 @@ public void TestROUNDED()
 | |     | | | |/ _  | | | |/___)
 | |_____| |_| ( (_| | |_| |___ |
 |_______)____/ \\____|____/(___/ 
-                                 """;
+                                """;
     Assert.assertEquals(expected,ASCIILogos.ROUNDED.getVal());
 }
 
@@ -1403,22 +1417,8 @@ public void TestRUNIC()
 |  \\ 
 |    
 |    
-|     """;
+|    """;
     Assert.assertEquals(expected,ASCIILogos.RUNIC.getVal());
-}
-
-
-@Test
-public void TestROWAN_CAP()
-{
-    String expected = """
-    dMP    dMP dMP dMMMMb  dMP dMP .dMMMb 
-   dMP    dMP dMP dMP VMP dMP dMP dMP\" VP 
-  dMP    dMP dMP dMP dMP dMP dMP  VMMMb   
- dMP    dMP.aMP dMP.aMP dMP.aMP dP .dMP   
-dMMMMMP VMMMP\" dMMMMP\"  VMMMP\"  VMMMP\"    
-                                           """;
-    Assert.assertEquals(expected,ASCIILogos.ROWAN_CAP.getVal());
 }
 
 
@@ -1432,7 +1432,7 @@ public void TestROZZO()
 888  ,d Y888 888P Y888 888 Y888 888P  Y88D 
 888,d88  \"88 88\"   \"88 888  \"88 88\"  d,dP  
                                            
-                                            """;
+                                           """;
     Assert.assertEquals(expected,ASCIILogos.ROZZO.getVal());
 }
 
@@ -1446,7 +1446,7 @@ public void TestRUNYC()
 |  \\                  
 |    |\\  |\\ /| |\\  /  
 |    | | | X | | | -- 
-|    | | |/ \\| | |  /  """;
+|    | | |/ \\| | |  / """;
     Assert.assertEquals(expected,ASCIILogos.RUNYC.getVal());
 }
 
@@ -1460,7 +1460,7 @@ public void TestSL_SCRIPT()
  /   . . __/ . . _  
 /___(_/_(_/_(_/_/_)_
                     
-                     """;
+                    """;
     Assert.assertEquals(expected,ASCIILogos.SL_SCRIPT.getVal());
 }
 
@@ -1474,20 +1474,8 @@ public void TestS_BLOOD()
  @!!      @!@  !@! @!@  !@! @!@  !@!  !@@!! 
  !!:      !!:  !!! !!:  !!! !!:  !!!     !:!
  : ::.: :  :.:: :  :: :  :   :.:: :  ::.: : 
-                                             """;
+                                            """;
     Assert.assertEquals(expected,ASCIILogos.S_BLOOD.getVal());
-}
-
-
-@Test
-public void TestSERIFCAP()
-{
-    String expected = """
- __   _  _  ___  _  _  ___ 
-(  ) ( )( )(   \\( )( )/ __)
- )(__ )()(  ) ) ))()( \\__ \\
-(____)\\__/ (___/ \\__/ (___/ """;
-    Assert.assertEquals(expected,ASCIILogos.SERIFCAP.getVal());
 }
 
 
@@ -1500,8 +1488,31 @@ public void TestSANTA_CLARA()
   /    , , __/ , , (  
 (/___/(_/_(_/_(_/_/_)_
                       
-                       """;
+                      """;
     Assert.assertEquals(expected,ASCIILogos.SANTA_CLARA.getVal());
+}
+
+
+@Test
+public void TestSERIFCAP()
+{
+    String expected = """
+ __   _  _  ___  _  _  ___ 
+(  ) ( )( )(   \\( )( )/ __)
+ )(__ )()(  ) ) ))()( \\__ \\
+(____)\\__/ (___/ \\__/ (___/""";
+    Assert.assertEquals(expected,ASCIILogos.SERIFCAP.getVal());
+}
+
+
+@Test
+public void TestSHORT()
+{
+    String expected = """
+|    |   _
+|_L|(|L|_\\
+          """;
+    Assert.assertEquals(expected,ASCIILogos.SHORT.getVal());
 }
 
 
@@ -1514,19 +1525,8 @@ public void TestSHIMROD()
 |    . . ,-| . . ,-. 
 |    | | | | | | `-. 
 `--' `-` `-' `-` `-' 
-                      """;
+                     """;
     Assert.assertEquals(expected,ASCIILogos.SHIMROD.getVal());
-}
-
-
-@Test
-public void TestSHORT()
-{
-    String expected = """
-|    |   _
-|_L|(|L|_\\
-           """;
-    Assert.assertEquals(expected,ASCIILogos.SHORT.getVal());
 }
 
 
@@ -1538,20 +1538,22 @@ public void TestSMALL_CAPS()
 ) |    ) () ( \\   \\ ) () (  (  _( 
 | (__  | \\/ | | ) ( | \\/ |  _) \\  
 )____( )____( /___/ )____( )____) 
-                                   """;
+                                  """;
     Assert.assertEquals(expected,ASCIILogos.SMALL_CAPS.getVal());
 }
 
 
 @Test
-public void TestSMALL_KEYBOARD()
+public void TestSLIDE()
 {
     String expected = """
- ____ ____ ____ ____ ____ 
-||L |||u |||d |||u |||s ||
-||__|||__|||__|||__|||__||
-|/__\\|/__\\|/__\\|/__\\|/__\\| """;
-    Assert.assertEquals(expected,ASCIILogos.SMALL_KEYBOARD.getVal());
+##          H|           
+##  ## H|   H|## H| #HH| 
+##  ## H| #HH|## H|##H|  
+##  ## H|## H|## H|   H| 
+##HH|#HH| #HH| #HH|##H|  
+                         """;
+    Assert.assertEquals(expected,ASCIILogos.SLIDE.getVal());
 }
 
 
@@ -1565,22 +1567,20 @@ public void TestSMALL_ISOMETRICONE()
  /:/__/    /:/_/\\__\\ /:/\\:\\__\\ /:/_/\\__\\ /\\:\\:\\__\\
  \\:\\  \\    \\:\\/:/  / \\:\\/:/  / \\:\\/:/  / \\:\\:\\/__/
   \\:\\__\\    \\::/  /   \\::/  /   \\::/  /   \\::/  / 
-   \\/__/     \\/__/     \\/__/     \\/__/     \\/__/   """;
+   \\/__/     \\/__/     \\/__/     \\/__/     \\/__/  """;
     Assert.assertEquals(expected,ASCIILogos.SMALL_ISOMETRICONE.getVal());
 }
 
 
 @Test
-public void TestSLIDE()
+public void TestSMALL_KEYBOARD()
 {
     String expected = """
-##          H|           
-##  ## H|   H|## H| #HH| 
-##  ## H| #HH|## H|##H|  
-##  ## H|## H|## H|   H| 
-##HH|#HH| #HH| #HH|##H|  
-                          """;
-    Assert.assertEquals(expected,ASCIILogos.SLIDE.getVal());
+ ____ ____ ____ ____ ____ 
+||L |||u |||d |||u |||s ||
+||__|||__|||__|||__|||__||
+|/__\\|/__\\|/__\\|/__\\|/__\\|""";
+    Assert.assertEquals(expected,ASCIILogos.SMALL_KEYBOARD.getVal());
 }
 
 
@@ -1590,36 +1590,8 @@ public void TestSMALL_TENGWAR()
     String expected = """
     ?  _ _  ?     
 --- | | ) ) | (~) 
-(_,   |        /   """;
+(_,   |        /  """;
     Assert.assertEquals(expected,ASCIILogos.SMALL_TENGWAR.getVal());
-}
-
-
-@Test
-public void TestSTACEY()
-{
-    String expected = """
-____   ____________  ______________
-7  7   7  7  77    \\ 7  7  77     7
-|  |   |  |  ||  7  ||  |  ||  ___!
-|  !___|  |  ||  |  ||  |  |!__   7
-|     7|  !  ||  !  ||  !  |7     |
-!_____!!_____!!_____!!_____!!_____!
-                                    """;
-    Assert.assertEquals(expected,ASCIILogos.STACEY.getVal());
-}
-
-
-@Test
-public void TestSPLIFF()
-{
-    String expected = """
- ____   __ __  _____  __ __  _____ 
-/  _/  /  |  \\|  _  \\/  |  \\/  ___>
-|  |---|  |  ||  |  ||  |  ||___  |
-\\_____/\\_____/|_____/\\_____/<_____/
-                                    """;
-    Assert.assertEquals(expected,ASCIILogos.SPLIFF.getVal());
 }
 
 
@@ -1632,8 +1604,21 @@ public void TestSTAMPATE()
 |    | | | | | | `-. 
 `--' `-' `-' `-' `-' 
                      
-                      """;
+                     """;
     Assert.assertEquals(expected,ASCIILogos.STAMPATE.getVal());
+}
+
+
+@Test
+public void TestSPLIFF()
+{
+    String expected = """
+ ____   __ __  _____  __ __  _____ 
+/  _/  /  |  \\|  _  \\/  |  \\/  ___>
+|  |---|  |  ||  |  ||  |  ||___  |
+\\_____/\\_____/|_____/\\_____/<_____/
+                                   """;
+    Assert.assertEquals(expected,ASCIILogos.SPLIFF.getVal());
 }
 
 
@@ -1647,8 +1632,23 @@ public void TestSTAR_WARS()
 |  |     |  |  |  | |  |  |  ||  |  |  |     \\   \\    
 |  `----.|  `--'  | |  '--'  ||  `--'  | .----)   |   
 |_______| \\______/  |_______/  \\______/  |_______/    
-                                                       """;
+                                                      """;
     Assert.assertEquals(expected,ASCIILogos.STAR_WARS.getVal());
+}
+
+
+@Test
+public void TestSTACEY()
+{
+    String expected = """
+____   ____________  ______________
+7  7   7  7  77    \\ 7  7  77     7
+|  |   |  |  ||  7  ||  |  ||  ___!
+|  !___|  |  ||  |  ||  |  |!__   7
+|     7|  !  ||  !  ||  !  |7     |
+!_____!!_____!!_____!!_____!!_____!
+                                   """;
+    Assert.assertEquals(expected,ASCIILogos.STACEY.getVal());
 }
 
 
@@ -1659,7 +1659,7 @@ public void TestSTFOREK()
  _  _  _ __  _  _   __  
 | || || | _\\| || |/' _/ 
 | || \\/ | v | \\/ |`._`. 
-|___\\__/|__/ \\__/ |___/  """;
+|___\\__/|__/ \\__/ |___/ """;
     Assert.assertEquals(expected,ASCIILogos.STFOREK.getVal());
 }
 
@@ -1671,7 +1671,7 @@ public void TestSTICK_LETTERS()
            __        __  
 |    |  | |  \\ |  | /__` 
 |___ \\__/ |__/ \\__/ .__/ 
-                          """;
+                         """;
     Assert.assertEquals(expected,ASCIILogos.STICK_LETTERS.getVal());
 }
 
@@ -1683,8 +1683,23 @@ public void TestSTRAIGHT()
                
 |      _|    _ 
 |__|_|(_||_|_) 
-                """;
+               """;
     Assert.assertEquals(expected,ASCIILogos.STRAIGHT.getVal());
+}
+
+
+@Test
+public void TestSTOP()
+{
+    String expected = """
+ _                _            
+| |              | |           
+| |     _   _  _ | |_   _  ___ 
+| |    | | | |/ || | | | |/___)
+| |____| |_| ( (_| | |_| |___ |
+|_______)____|\\____|\\____(___/ 
+                               """;
+    Assert.assertEquals(expected,ASCIILogos.STOP.getVal());
 }
 
 
@@ -1700,23 +1715,8 @@ public void TestSTRONGER_THAN_ALL()
 |______/|. _____/  :/      |. _____/    :     
          :/        :        :/                
          :                  :                 
-                                               """;
+                                              """;
     Assert.assertEquals(expected,ASCIILogos.STRONGER_THAN_ALL.getVal());
-}
-
-
-@Test
-public void TestSTOP()
-{
-    String expected = """
- _                _            
-| |              | |           
-| |     _   _  _ | |_   _  ___ 
-| |    | | | |/ || | | | |/___)
-| |____| |_| ( (_| | |_| |___ |
-|_______)____|\\____|\\____(___/ 
-                                """;
-    Assert.assertEquals(expected,ASCIILogos.STOP.getVal());
 }
 
 
@@ -1729,7 +1729,7 @@ public void TestSUB_ZERO()
 \\ \\ \\____  \\ \\ \\_\\ \\  \\ \\ \\/\\ \\ \\ \\ \\_\\ \\  \\ \\___  \\  
  \\ \\_____\\  \\ \\_____\\  \\ \\____-  \\ \\_____\\  \\/\\_____\\ 
   \\/_____/   \\/_____/   \\/____/   \\/_____/   \\/_____/ 
-                                                       """;
+                                                      """;
     Assert.assertEquals(expected,ASCIILogos.SUB_ZERO.getVal());
 }
 
@@ -1744,7 +1744,7 @@ public void TestTHIS()
     █      █    █     █    █   █    █   ▀▄   █  
   ▄▀▄▄▄▄▄▄▀ ▀▄▄▄▄▀   ▄▀▄▄▄▄▀    ▀▄▄▄▄▀   █▀▀▀   
   █                 █     ▐              ▐      
-  ▐                 ▐                            """;
+  ▐                 ▐                           """;
     Assert.assertEquals(expected,ASCIILogos.THIS.getVal());
 }
 
@@ -1760,7 +1760,7 @@ L)       u)   UU d)   DD u)   UU s)SSSS
 L)       u)   UU d)   DD u)   UU      s) 
 L)llllll  u)UUU   d)DDDD  u)UUU  s)SSSS  
                                          
-                                          """;
+                                         """;
     Assert.assertEquals(expected,ASCIILogos.TANJA.getVal());
 }
 
@@ -1775,7 +1775,7 @@ public void TestTHE_EDGE()
 ███▄  █   █ █  █  █   █  ▀▄▄▄▄▀    
     ▀ █▄ ▄█ ███▀  █▄ ▄█            
        ▀▀▀         ▀▀▀             
-                                    """;
+                                   """;
     Assert.assertEquals(expected,ASCIILogos.THE_EDGE.getVal());
 }
 
@@ -1788,44 +1788,8 @@ public void TestTHICK()
 8    8   8 .d88 8   8 d88b 
 8    8b d8 8  8 8b d8 `Yb. 
 8888 `Y8P8 `Y88 `Y8P8 Y88P 
-                            """;
+                           """;
     Assert.assertEquals(expected,ASCIILogos.THICK.getVal());
-}
-
-
-@Test
-public void TestTESTONE()
-{
-    String expected = """
- ____      _____ ___________________ _____ __________
-/   /_____ \\   / \\   /     O   \\   / \\   //_________/
-\\___\\_____\\/___\\_/___\\_________/___\\_/___\\`%%%%%%%%%/
- `BBBBBBBB'`BBBBBBBBB'`BBBBBBB'`BBBBBBBBB'`BBBBBBBB'  """;
-    Assert.assertEquals(expected,ASCIILogos.TESTONE.getVal());
-}
-
-
-@Test
-public void TestTHORNED()
-{
-    String expected = """
- ,   ,  ,  ,_  ,  , _, 
- |   |  |  | \\,|  |(_, 
-'|__'\\__| _|_/'\\__| _) 
-   '    `'        `'   
-                        """;
-    Assert.assertEquals(expected,ASCIILogos.THORNED.getVal());
-}
-
-
-@Test
-public void TestTHREE_POINT()
-{
-    String expected = """
-|     _|    _
-|_|_|(_||_|_\\
-              """;
-    Assert.assertEquals(expected,ASCIILogos.THREE_POINT.getVal());
 }
 
 
@@ -1838,8 +1802,44 @@ public void TestTHIN()
 |    .   .,---|.   .,---.
 |    |   ||   ||   |`---.
 `---'`---'`---'`---'`---'
-                          """;
+                         """;
     Assert.assertEquals(expected,ASCIILogos.THIN.getVal());
+}
+
+
+@Test
+public void TestTESTONE()
+{
+    String expected = """
+ ____      _____ ___________________ _____ __________
+/   /_____ \\   / \\   /     O   \\   / \\   //_________/
+\\___\\_____\\/___\\_/___\\_________/___\\_/___\\`%%%%%%%%%/
+ `BBBBBBBB'`BBBBBBBBB'`BBBBBBB'`BBBBBBBBB'`BBBBBBBB' """;
+    Assert.assertEquals(expected,ASCIILogos.TESTONE.getVal());
+}
+
+
+@Test
+public void TestTHORNED()
+{
+    String expected = """
+ ,   ,  ,  ,_  ,  , _, 
+ |   |  |  | \\,|  |(_, 
+'|__'\\__| _|_/'\\__| _) 
+   '    `'        `'   
+                       """;
+    Assert.assertEquals(expected,ASCIILogos.THORNED.getVal());
+}
+
+
+@Test
+public void TestTHREE_POINT()
+{
+    String expected = """
+|     _|    _
+|_|_|(_||_|_\\
+             """;
+    Assert.assertEquals(expected,ASCIILogos.THREE_POINT.getVal());
 }
 
 
@@ -1853,7 +1853,7 @@ o            o
 |    |  | |  | |  |  \\  
 O---oo--o  o-o o--o o-o 
                         
-                         """;
+                        """;
     Assert.assertEquals(expected,ASCIILogos.TINKER_TOY.getVal());
 }
 
@@ -1866,7 +1866,7 @@ public void TestTOMBSTONE()
  |   | | | \\ | | (_ 
  | , | | |_/ | | , )
  ~~~ `~' ~   `~'  ~ 
-                     """;
+                    """;
     Assert.assertEquals(expected,ASCIILogos.TOMBSTONE.getVal());
 }
 
@@ -1880,7 +1880,7 @@ public void TestTRAIN()
   | |__  | +| |  / _` |  | +| |   (_-<   
   |____|  \\_,_|  \\__,_|   \\_,_|   /__/_  
 _|\"\"\"\"\"|_|\"\"\"\"\"|_|\"\"\"\"\"|_|\"\"\"\"\"|_|\"\"\"\"\"| 
-\"`-0-0-'\"`-0-0-'\"`-0-0-'\"`-0-0-'\"`-0-0-'  """;
+\"`-0-0-'\"`-0-0-'\"`-0-0-'\"`-0-0-'\"`-0-0-' """;
     Assert.assertEquals(expected,ASCIILogos.TRAIN.getVal());
 }
 
@@ -1890,8 +1890,22 @@ public void TestTWO_POINT()
 {
     String expected = """
 |     _|    _
-|_|_|(_||_|_\\ """;
+|_|_|(_||_|_\\""";
     Assert.assertEquals(expected,ASCIILogos.TWO_POINT.getVal());
+}
+
+
+@Test
+public void TestUSA_FLAG()
+{
+    String expected = """
+ :::      :::  === :::====  :::  === :::=== 
+ :::      :::  === :::  === :::  === :::    
+ ===      ===  === ===  === ===  ===  ===== 
+ ===      ===  === ===  === ===  ===     ===
+ ========  ======  =======   ======  ====== 
+                                            """;
+    Assert.assertEquals(expected,ASCIILogos.USA_FLAG.getVal());
 }
 
 
@@ -1906,51 +1920,8 @@ public void TestTHREE_D()
 /**      /**  /** **///**/**  /**//***** 
 /**      /**  /**/**  /**/**  /** /////**
 /********//******//******//****** ****** 
-////////  //////  //////  ////// //////   """;
+////////  //////  //////  ////// //////  """;
     Assert.assertEquals(expected,ASCIILogos.THREE_D.getVal());
-}
-
-
-@Test
-public void TestWEIRD()
-{
-    String expected = """
-                         
- /            |          
-(          ___|      ___ 
-|   )|   )|   )|   )|___ 
-|__/ |__/ |__/ |__/  __/ 
-                          """;
-    Assert.assertEquals(expected,ASCIILogos.WEIRD.getVal());
-}
-
-
-@Test
-public void TestWET_LETTER()
-{
-    String expected = """
-,-.    .-. .-. ,'|\"\\   .-. .-.   .---. 
-| |    | | | | | |\\ \\  | | | |  ( .-._)
-| |    | | | | | | \\ \\ | | | | (_) \\   
-| |    | | | | | |  \\ \\| | | | _  \\ \\  
-| `--. | `-')| /(|`-' /| `-')|( `-'  ) 
-|( __.'`---(_)(__)`--' `---(_) `----'  
-(_)                                     """;
-    Assert.assertEquals(expected,ASCIILogos.WET_LETTER.getVal());
-}
-
-
-@Test
-public void TestFIVE_LINE_OBLIQUE()
-{
-    String expected = """
-                                                  
-     / /                                          
-    / /                  ___   /           ___    
-   / /        //   / / //   ) / //   / / ((   ) ) 
-  / /        //   / / //   / / //   / /   \\ \\     
- / /____/ / ((___( ( ((___/ / ((___( ( //   ) )    """;
-    Assert.assertEquals(expected,ASCIILogos.FIVE_LINE_OBLIQUE.getVal());
 }
 
 
@@ -1967,26 +1938,51 @@ public void TestTHREED_ASCII()
     \\|_______|\\|_______|\\|_______|\\|_______|\\_________\\
                                            \\|_________|
                                                        
-                                                        """;
+                                                       """;
     Assert.assertEquals(expected,ASCIILogos.THREED_ASCII.getVal());
 }
 
 
 @Test
-public void TestAMC_NEKO()
+public void TestWEIRD()
 {
     String expected = """
-SSSSS                                                       
-SSSSS       .sSSS s.    .sSSSSs.    .sSSS s.    .sSSSSSSSs. 
-S SSS       S SSS SSSs. S SSSSSSSs. S SSS SSSs. S SSS SSSS' 
-S  SS       S  SS SSSSS S  SS SSSSS S  SS SSSSS S  SS       
-S..SS       S..SS SSSSS S..SS SSSSS S..SS SSSSS `SSSSsSSSa. 
-S:::S       S:::S SSSSS S:::S SSSSS S:::S SSSSS .sSSS SSSSS 
-S;;;S       S;;;S SSSSS S;;;S SSSSS S;;;S SSSSS S;;;S SSSSS 
-S%%%S SSSSS S%%%S SSSSS S%%%S SSSS' S%%%S SSSSS S%%%S SSSSS 
-SSSSSsSS;:' SSSSSsSSSSS SSSSSsS;:'  SSSSSsSSSSS SSSSSsSSSSS 
-                                                             """;
-    Assert.assertEquals(expected,ASCIILogos.AMC_NEKO.getVal());
+                         
+ /            |          
+(          ___|      ___ 
+|   )|   )|   )|   )|___ 
+|__/ |__/ |__/ |__/  __/ 
+                         """;
+    Assert.assertEquals(expected,ASCIILogos.WEIRD.getVal());
+}
+
+
+@Test
+public void TestWET_LETTER()
+{
+    String expected = """
+,-.    .-. .-. ,'|\"\\   .-. .-.   .---. 
+| |    | | | | | |\\ \\  | | | |  ( .-._)
+| |    | | | | | | \\ \\ | | | | (_) \\   
+| |    | | | | | |  \\ \\| | | | _  \\ \\  
+| `--. | `-')| /(|`-' /| `-')|( `-'  ) 
+|( __.'`---(_)(__)`--' `---(_) `----'  
+(_)                                    """;
+    Assert.assertEquals(expected,ASCIILogos.WET_LETTER.getVal());
+}
+
+
+@Test
+public void TestFIVE_LINE_OBLIQUE()
+{
+    String expected = """
+                                                  
+     / /                                          
+    / /                  ___   /           ___    
+   / /        //   / / //   ) / //   / / ((   ) ) 
+  / /        //   / / //   / / //   / /   \\ \\     
+ / /____/ / ((___( ( ((___/ / ((___( ( //   ) )   """;
+    Assert.assertEquals(expected,ASCIILogos.FIVE_LINE_OBLIQUE.getVal());
 }
 
 
@@ -2008,8 +2004,26 @@ S*S.    S*S.     .S*S  S*S   .S*S  S*S.     .S*S    .S*P
   YSSP    YSSP~YSSY    SSS~YSSY      YSSP~YSSY    YSS'    
                                                           
                                                           
-                                                           """;
+                                                          """;
     Assert.assertEquals(expected,ASCIILogos.AMC_AAA0ONE.getVal());
+}
+
+
+@Test
+public void TestAMC_NEKO()
+{
+    String expected = """
+SSSSS                                                       
+SSSSS       .sSSS s.    .sSSSSs.    .sSSS s.    .sSSSSSSSs. 
+S SSS       S SSS SSSs. S SSSSSSSs. S SSS SSSs. S SSS SSSS' 
+S  SS       S  SS SSSSS S  SS SSSSS S  SS SSSSS S  SS       
+S..SS       S..SS SSSSS S..SS SSSSS S..SS SSSSS `SSSSsSSSa. 
+S:::S       S:::S SSSSS S:::S SSSSS S:::S SSSSS .sSSS SSSSS 
+S;;;S       S;;;S SSSSS S;;;S SSSSS S;;;S SSSSS S;;;S SSSSS 
+S%%%S SSSSS S%%%S SSSSS S%%%S SSSS' S%%%S SSSSS S%%%S SSSSS 
+SSSSSsSS;:' SSSSSsSSSSS SSSSSsS;:'  SSSSSsSSSSS SSSSSsSSSSS 
+                                                            """;
+    Assert.assertEquals(expected,ASCIILogos.AMC_NEKO.getVal());
 }
 
 
@@ -2025,7 +2039,7 @@ public void TestAMC_RAZORTWO()
 |  |    . |  | |  | |  |  | | |  | |  | .    |  | 
 |  | .+'| |  | |  | |  | .+ | |  | |  | |`+. |  | 
 `+.|=|.+' `+.|=|.+' `+.|=|.+' `+.|=|.+' `+.|=|.+' 
-                                                   """;
+                                                  """;
     Assert.assertEquals(expected,ASCIILogos.AMC_RAZORTWO.getVal());
 }
 
@@ -2043,7 +2057,7 @@ SS        SS    S%S SS    S%S SS    S%S       ;;.
 SS        SS    `:; SS    `:; SS    `:;       `:; 
 SS    ;,. SS    ;,. SS    ;,. SS    ;,. .,;   ;,. 
 `:;;;;;:' `:;;;;;:' ;;;;;;;:' `:;;;;;:' `:;;;;;:' 
-                                                   """;
+                                                  """;
     Assert.assertEquals(expected,ASCIILogos.AMC_SLASH.getVal());
 }
 
@@ -2052,23 +2066,8 @@ SS    ;,. SS    ;,. SS    ;,. SS    ;,. .,;   ;,.
 public void TestWOW()
 {
     String expected = """
-][_ ][_][ ][_) ][_][ ((5  """;
+][_ ][_][ ][_) ][_][ ((5 """;
     Assert.assertEquals(expected,ASCIILogos.WOW.getVal());
-}
-
-
-@Test
-public void TestANSI_SHADOW()
-{
-    String expected = """
-██╗     ██╗   ██╗██████╗ ██╗   ██╗███████╗
-██║     ██║   ██║██╔══██╗██║   ██║██╔════╝
-██║     ██║   ██║██║  ██║██║   ██║███████╗
-██║     ██║   ██║██║  ██║██║   ██║╚════██║
-███████╗╚██████╔╝██████╔╝╚██████╔╝███████║
-╚══════╝ ╚═════╝ ╚═════╝  ╚═════╝ ╚══════╝
-                                           """;
-    Assert.assertEquals(expected,ASCIILogos.ANSI_SHADOW.getVal());
 }
 
 
@@ -2082,8 +2081,23 @@ public void TestANSI_REGULAR()
 ██      ██    ██ ██   ██ ██    ██      ██ 
 ███████  ██████  ██████   ██████  ███████ 
                                           
-                                           """;
+                                          """;
     Assert.assertEquals(expected,ASCIILogos.ANSI_REGULAR.getVal());
+}
+
+
+@Test
+public void TestANSI_SHADOW()
+{
+    String expected = """
+██╗     ██╗   ██╗██████╗ ██╗   ██╗███████╗
+██║     ██║   ██║██╔══██╗██║   ██║██╔════╝
+██║     ██║   ██║██║  ██║██║   ██║███████╗
+██║     ██║   ██║██║  ██║██║   ██║╚════██║
+███████╗╚██████╔╝██████╔╝╚██████╔╝███████║
+╚══════╝ ╚═════╝ ╚═════╝  ╚═════╝ ╚══════╝
+                                          """;
+    Assert.assertEquals(expected,ASCIILogos.ANSI_SHADOW.getVal());
 }
 
 
@@ -2097,22 +2111,8 @@ public void TestALLIGATOR()
    +#+       +#+    +:+ +#+    +:+ +#+    +:+ +#++:++#++   
   +#+       +#+    +#+ +#+    +#+ +#+    +#+        +#+    
  #+#       #+#    #+# #+#    #+# #+#    #+# #+#    #+#     
-########## ########  #########   ########   ########        """;
+########## ########  #########   ########   ########       """;
     Assert.assertEquals(expected,ASCIILogos.ALLIGATOR.getVal());
-}
-
-
-@Test
-public void TestUSA_FLAG()
-{
-    String expected = """
- :::      :::  === :::====  :::  === :::=== 
- :::      :::  === :::  === :::  === :::    
- ===      ===  === ===  === ===  ===  ===== 
- ===      ===  === ===  === ===  ===     ===
- ========  ======  =======   ======  ====== 
-                                             """;
-    Assert.assertEquals(expected,ASCIILogos.USA_FLAG.getVal());
 }
 
 
@@ -2126,7 +2126,7 @@ public void TestALLIGATORTWO()
 +#+       +#+    +:+ +#+    +:+ +#+    +:+ +#++:++#++ 
 +#+       +#+    +#+ +#+    +#+ +#+    +#+        +#+ 
 #+#       #+#    #+# #+#    #+# #+#    #+# #+#    #+# 
-########## ########  #########   ########   ########   """;
+########## ########  #########   ########   ########  """;
     Assert.assertEquals(expected,ASCIILogos.ALLIGATORTWO.getVal());
 }
 
@@ -2142,7 +2142,7 @@ public void TestARROWS()
 >=>       >=>  >=> >>  >=> >=>  >=>   >==>  
 >=>       >=>  >=> >>  >=> >=>  >=>     >=> 
 >=======>   >==>=>  >=>>=>   >==>=> >=> >=> 
-                                             """;
+                                            """;
     Assert.assertEquals(expected,ASCIILogos.ARROWS.getVal());
 }
 
@@ -2158,7 +2158,7 @@ public void TestBANNERTHREE_D()
  ##::::::: ##:::: ##: ##:::: ##: ##:::: ##::..... ##:
  ##::::::: ##:::: ##: ##:::: ##: ##:::: ##:'##::: ##:
  ########:. #######:: ########::. #######::. ######::
-........:::.......:::........::::.......::::......::: """;
+........:::.......:::........::::.......::::......:::""";
     Assert.assertEquals(expected,ASCIILogos.BANNERTHREE_D.getVal());
 }
 
@@ -2174,7 +2174,7 @@ public void TestBARBWIRE()
 ><<      ><<  ><<><   ><<><<  ><<  ><<< 
 ><<      ><<  ><<><   ><<><<  ><<    ><<
 ><<<<<<<<  ><<><< ><< ><<  ><<><<><< ><<
-                                         """;
+                                        """;
     Assert.assertEquals(expected,ASCIILogos.BARBWIRE.getVal());
 }
 
@@ -2190,7 +2190,7 @@ db      db    db d8888b. db    db .d8888.
 88booo. 88b  d88 88  .8D 88b  d88 db   8D 
 Y88888P ~Y8888P' Y8888D' ~Y8888P' `8888Y' 
                                           
-                                           """;
+                                          """;
     Assert.assertEquals(expected,ASCIILogos.BASIC.getVal());
 }
 
@@ -2207,7 +2207,7 @@ public void TestBEAR()
    || L ||      || U ||      || D ||      || U ||      || S ||   
  _.' `-' '._  _.' `-' '._  _.' `-' '._  _.' `-' '._  _.' `-' '._ 
 (.-./`-'\\.-.)(.-./`-'\\.-.)(.-./`-'\\.-.)(.-./`-'\\.-.)(.-./`-`\\.-.)
- `-'     `-'  `-'     `-'  `-'     `-'  `-'     `-'  `-'     `-'  """;
+ `-'     `-'  `-'     `-'  `-'     `-'  `-'     `-'  `-'     `-' """;
     Assert.assertEquals(expected,ASCIILogos.BEAR.getVal());
 }
 
@@ -2223,7 +2223,7 @@ ___________________________________
   /      /   /  /   /   /   /  (_ `
 _/____/_(___(__(___/___(___(__(__)_
                                    
-                                    """;
+                                   """;
     Assert.assertEquals(expected,ASCIILogos.BIG_CHIEF.getVal());
 }
 
@@ -2242,7 +2242,7 @@ public void TestBIG_MONEY_NE()
 |________/ \\______/  \\_______/ \\______/ |_______/ 
                                                   
                                                   
-                                                   """;
+                                                  """;
     Assert.assertEquals(expected,ASCIILogos.BIG_MONEY_NE.getVal());
 }
 
@@ -2261,7 +2261,7 @@ $$$$$$$$\\\\$$$$$$  |\\$$$$$$$ |\\$$$$$$  |$$$$$$$  |
 \\________|\\______/  \\_______| \\______/ \\_______/ 
                                                  
                                                  
-                                                  """;
+                                                 """;
     Assert.assertEquals(expected,ASCIILogos.BIG_MONEY_NW.getVal());
 }
 
@@ -2279,7 +2279,7 @@ public void TestBLOODY()
 ░ ░ ▒  ░░░▒░ ░ ░  ░ ▒  ▒ ░░▒░ ░ ░ ░ ░▒  ░ ░
   ░ ░    ░░░ ░ ░  ░ ░  ░  ░░░ ░ ░ ░  ░  ░  
     ░  ░   ░        ░       ░           ░  
-                  ░                         """;
+                  ░                        """;
     Assert.assertEquals(expected,ASCIILogos.BLOODY.getVal());
 }
 
@@ -2294,7 +2294,7 @@ public void TestBOLGER()
 888     888  888 8888  888 888  888  Y88b  
 888     888  888 Y888  888 888  888   888D 
 888____ \"88_-888  \"88_/888 \"88_-888 \\_88P  
-                                            """;
+                                           """;
     Assert.assertEquals(expected,ASCIILogos.BOLGER.getVal());
 }
 
@@ -2313,7 +2313,7 @@ public void TestBROADWAY()
 8 8888      8 8888      88 8 8888         ,88 8 8888      88     `8.`8888.  
 8 8888      ` 8888     ,8P 8 8888        ,88' ` 8888     ,8P 8b   `8.`8888. 
 8 8888        8888   ,d8P  8 8888    ,o88P'     8888   ,d8P  `8b.  ;8.`8888 
-8 888888888888 `Y88888P'   8 888888888P'         `Y88888P'    `Y8888P ,88P'  """;
+8 888888888888 `Y88888P'   8 888888888P'         `Y88888P'    `Y8888P ,88P' """;
     Assert.assertEquals(expected,ASCIILogos.BROADWAY.getVal());
 }
 
@@ -2329,7 +2329,7 @@ _//      _//  _// _// _//_//  _//_//
 _//      _//  _//_/   _//_//  _//  _/// 
 _//      _//  _//_/   _//_//  _//    _//
 _////////  _//_// _// _//  _//_//_// _//
-                                         """;
+                                        """;
     Assert.assertEquals(expected,ASCIILogos.CATWALK.getVal());
 }
 
@@ -2346,7 +2346,7 @@ public void TestCHISELED()
 |==|, |   |==|,  \\/ - |==|,|   | -|==|,  \\/ - |_\\==\\ ,\\  
 |==|- `-._|==|-   ,   /==|  '='   /==|-   ,   /==/\\/ _ | 
 /==/ - , ,/==/ , _  .'|==|-,   _`//==/ , _  .'\\==\\ - , / 
-`--`-----'`--`..---'  `-.`.____.' `--`..---'   `--`---'   """;
+`--`-----'`--`..---'  `-.`.____.' `--`..---'   `--`---'  """;
     Assert.assertEquals(expected,ASCIILogos.CHISELED.getVal());
 }
 
@@ -2362,7 +2362,7 @@ O))      O))  O)) O)) O))O))  O))O))
 O))      O))  O))O)   O))O))  O))  O))) 
 O))      O))  O))O)   O))O))  O))    O))
 O))))))))  O))O)) O)) O))  O))O))O)) O))
-                                         """;
+                                        """;
     Assert.assertEquals(expected,ASCIILogos.COINSTAK.getVal());
 }
 
@@ -2381,7 +2381,7 @@ public void TestCOLOSSAL()
 88888888 \"Y88888  \"Y88888  \"Y88888  88888P' 
                                             
                                             
-                                             """;
+                                            """;
     Assert.assertEquals(expected,ASCIILogos.COLOSSAL.getVal());
 }
 
@@ -2397,7 +2397,7 @@ public void TestCRICKET()
  |:  1   |                       
  |::.. . |                       
  `-------'                       
-                                  """;
+                                 """;
     Assert.assertEquals(expected,ASCIILogos.CRICKET.getVal());
 }
 
@@ -2412,8 +2412,24 @@ U | | u  \\| |\\| |/| | | | \\| |\\| |<\\___ \\/
  \\| |/__  | |_| |U| |_| |\\ | |_| | u___) |   
   |_____|<<\\___/  |____/ u<<\\___/  |____/>>  
   //  \\\\(__) )(    |||_  (__) )(    )(  (__) 
- (_\")(\"_)   (__)  (__)_)     (__)  (__)       """;
+ (_\")(\"_)   (__)  (__)_)     (__)  (__)      """;
     Assert.assertEquals(expected,ASCIILogos.DANCING_FONT.getVal());
+}
+
+
+@Test
+public void TestDIAMOND()
+{
+    String expected = """
+/\\\\                   /\\\\               
+/\\\\                   /\\\\               
+/\\\\      /\\\\  /\\\\     /\\\\/\\\\  /\\\\ /\\\\\\\\ 
+/\\\\      /\\\\  /\\\\ /\\\\ /\\\\/\\\\  /\\\\/\\\\    
+/\\\\      /\\\\  /\\\\/\\   /\\\\/\\\\  /\\\\  /\\\\\\ 
+/\\\\      /\\\\  /\\\\/\\   /\\\\/\\\\  /\\\\    /\\\\
+/\\\\\\\\\\\\\\\\  /\\\\/\\\\ /\\\\ /\\\\  /\\\\/\\\\/\\\\ /\\\\
+                                        """;
+    Assert.assertEquals(expected,ASCIILogos.DIAMOND.getVal());
 }
 
 
@@ -2429,24 +2445,8 @@ public void TestDELTA_CORPS_PRIEST_ONE()
 ███       ███    ███ ███    ███ ███    ███          ███ 
 ███▌    ▄ ███    ███ ███   ▄███ ███    ███    ▄█    ███ 
 █████▄▄██ ████████▀  ████████▀  ████████▀   ▄████████▀  
-▀                                                        """;
+▀                                                       """;
     Assert.assertEquals(expected,ASCIILogos.DELTA_CORPS_PRIEST_ONE.getVal());
-}
-
-
-@Test
-public void TestDIAMOND()
-{
-    String expected = """
-/\\\\                   /\\\\               
-/\\\\                   /\\\\               
-/\\\\      /\\\\  /\\\\     /\\\\/\\\\  /\\\\ /\\\\\\\\ 
-/\\\\      /\\\\  /\\\\ /\\\\ /\\\\/\\\\  /\\\\/\\\\    
-/\\\\      /\\\\  /\\\\/\\   /\\\\/\\\\  /\\\\  /\\\\\\ 
-/\\\\      /\\\\  /\\\\/\\   /\\\\/\\\\  /\\\\    /\\\\
-/\\\\\\\\\\\\\\\\  /\\\\/\\\\ /\\\\ /\\\\  /\\\\/\\\\/\\\\ /\\\\
-                                         """;
-    Assert.assertEquals(expected,ASCIILogos.DIAMOND.getVal());
 }
 
 
@@ -2456,7 +2456,7 @@ public void TestDIGITAL()
     String expected = """
  +-+-+-+-+-+
  |L|u|d|u|s|
- +-+-+-+-+-+ """;
+ +-+-+-+-+-+""";
     Assert.assertEquals(expected,ASCIILogos.DIGITAL.getVal());
 }
 
@@ -2473,7 +2473,7 @@ public void TestEPIC()
 | |      | |   | || |   ) || |   | |      ) |
 | (____/\\| (___) || (__/  )| (___) |/\\____) |
 (_______/(_______)(______/ (_______)\\_______)
-                                              """;
+                                             """;
     Assert.assertEquals(expected,ASCIILogos.EPIC.getVal());
 }
 
@@ -2490,25 +2490,8 @@ public void TestFIRE_FONT_K()
 | |  (_))(   _| |(_))( ((_) 
 | |__| || |/ _` || || |(_-< 
 |____|\\_,_|\\__,_| \\_,_|/__/ 
-                             """;
+                            """;
     Assert.assertEquals(expected,ASCIILogos.FIRE_FONT_K.getVal());
-}
-
-
-@Test
-public void TestFIRE_FONT_S()
-{
-    String expected = """
- (                      
- )\\ )      (            
-(()/(  (   )\\ )  (      
- /(_))))\\ (()/( ))\\ (   
-(_)) /((_) ((_))((_))\\  
-| | (_))(  _| (_))(((_) 
-| |_| || / _` | || (_-< 
-|____\\_,_\\__,_|\\_,_/__/ 
-                         """;
-    Assert.assertEquals(expected,ASCIILogos.FIRE_FONT_S.getVal());
 }
 
 
@@ -2525,8 +2508,25 @@ public void TestFLOWER_POWER()
  `-'`-'|___| (_ (_) _)|  (_.\\.' / | (_ (_) _)\\    `-'  | 
   |        \\\\ /  . \\ /|       .'   \\ /  . \\ / \\       /  
   `--------` ``-'`-'' '-----'`      ``-'`-''   `-...-'   
-                                                          """;
+                                                         """;
     Assert.assertEquals(expected,ASCIILogos.FLOWER_POWER.getVal());
+}
+
+
+@Test
+public void TestFIRE_FONT_S()
+{
+    String expected = """
+ (                      
+ )\\ )      (            
+(()/(  (   )\\ )  (      
+ /(_))))\\ (()/( ))\\ (   
+(_)) /((_) ((_))((_))\\  
+| | (_))(  _| (_))(((_) 
+| |_| || / _` | || (_-< 
+|____\\_,_\\__,_|\\_,_/__/ 
+                        """;
+    Assert.assertEquals(expected,ASCIILogos.FIRE_FONT_S.getVal());
 }
 
 
@@ -2540,25 +2540,23 @@ public void TestFUN_FACES()
    | \\   / /    \\ \\/ |(\\ / /    \\ \\   `. | 
    |  `. | \\____/ || | ))| \\____/ |   _| | 
   (.-.__)'. `--' .`| |// '. `--' .`,-'   | 
-   `-'     `-..-'  \\__/    `-..-' (_..--'   """;
+   `-'     `-..-'  \\__/    `-..-' (_..--'  """;
     Assert.assertEquals(expected,ASCIILogos.FUN_FACES.getVal());
 }
 
 
 @Test
-public void TestGHOST()
+public void TestGHOULISH()
 {
     String expected = """
-                      _ .-') _                 .-')    
-                     ( (  OO) )               ( OO ).  
- ,--.     ,--. ,--.   \\     .'_  ,--. ,--.   (_)---\\_) 
- |  |.-') |  | |  |   ,`'--..._) |  | |  |   /    _ |  
- |  | OO )|  | | .-') |  |  \\  ' |  | | .-') \\  :` `.  
- |  |`-' ||  |_|( OO )|  |   ' | |  |_|( OO ) '..`''.) 
-(|  '---.'|  | | `-' /|  |   / : |  | | `-' /.-._)   \\ 
- |      |('  '-'(_.-' |  '--'  /('  '-'(_.-' \\       / 
- `------'  `-----'    `-------'   `-----'     `-----'   """;
-    Assert.assertEquals(expected,ASCIILogos.GHOST.getVal());
+ .')           .-.     )\\.-.       .-.    )\\.--.  
+( /        ,'  /  )  ,'     )  ,'  /  )  (   ._.' 
+ ))       (  ) | (  (  .-, (  (  ) | (    `-.`.   
+ )'._.-.   ) '._\\ )  ) '._\\ )  ) '._\\ )  ,_ (  \\  
+(       ) (  ,   (  (  ,   (  (  ,   (  (  '.)  ) 
+ )/,__.'   )/ ._.'   )/ ._.'   )/ ._.'   '._,_.'  
+                                                  """;
+    Assert.assertEquals(expected,ASCIILogos.GHOULISH.getVal());
 }
 
 
@@ -2574,23 +2572,8 @@ _-_-           |\\
  ||     || || || || || ||  ~ || 
 (  -__, \\\\/\\\\  \\\\/  \\\\/\\\\ ,-_-  
                                 
-                                 """;
+                                """;
     Assert.assertEquals(expected,ASCIILogos.GOTHIC.getVal());
-}
-
-
-@Test
-public void TestGHOULISH()
-{
-    String expected = """
- .')           .-.     )\\.-.       .-.    )\\.--.  
-( /        ,'  /  )  ,'     )  ,'  /  )  (   ._.' 
- ))       (  ) | (  (  .-, (  (  ) | (    `-.`.   
- )'._.-.   ) '._\\ )  ) '._\\ )  ) '._\\ )  ,_ (  \\  
-(       ) (  ,   (  (  ,   (  (  ,   (  (  '.)  ) 
- )/,__.'   )/ ._.'   )/ ._.'   )/ ._.'   '._,_.'  
-                                                   """;
-    Assert.assertEquals(expected,ASCIILogos.GHOULISH.getVal());
 }
 
 
@@ -2601,25 +2584,25 @@ public void TestGRACEFUL()
  __    _  _  ____  _  _  ____ 
 (  )  / )( \\(    \\/ )( \\/ ___)
 / (_/\\) \\/ ( ) D () \\/ (\\___ \\
-\\____/\\____/(____/\\____/(____/ """;
+\\____/\\____/(____/\\____/(____/""";
     Assert.assertEquals(expected,ASCIILogos.GRACEFUL.getVal());
 }
 
 
 @Test
-public void TestGREEK()
+public void TestGHOST()
 {
     String expected = """
-                                 
-                 __              
-    /\\          / _)             
-   /  \\  _   _  \\ \\  _   _  ____ 
-  / /\\ \\| | | |/ _ \\| | | |/  ._)
- / /  \\ \\ |_| ( (_) ) |_| ( () ) 
-/_/    \\_\\___/ \\___/ \\___/ \\__/  
-                                 
-                                  """;
-    Assert.assertEquals(expected,ASCIILogos.GREEK.getVal());
+                      _ .-') _                 .-')    
+                     ( (  OO) )               ( OO ).  
+ ,--.     ,--. ,--.   \\     .'_  ,--. ,--.   (_)---\\_) 
+ |  |.-') |  | |  |   ,`'--..._) |  | |  |   /    _ |  
+ |  | OO )|  | | .-') |  |  \\  ' |  | | .-') \\  :` `.  
+ |  |`-' ||  |_|( OO )|  |   ' | |  |_|( OO ) '..`''.) 
+(|  '---.'|  | | `-' /|  |   / : |  | | `-' /.-._)   \\ 
+ |      |('  '-'(_.-' |  '--'  /('  '-'(_.-' \\       / 
+ `------'  `-----'    `-------'   `-----'     `-----'  """;
+    Assert.assertEquals(expected,ASCIILogos.GHOST.getVal());
 }
 
 
@@ -2635,8 +2618,25 @@ eee....eee..eee.eeeeeee..eee..eee..eeeeee.
 !!!====!!!==!!!=!!!==!!!=!!!==!!!=====!!!=
 ::::::#::::::::#::::::::#::::::::#:::::::#
 ......@@......@@.......@@@......@@......@@
-                                           """;
+                                          """;
     Assert.assertEquals(expected,ASCIILogos.GRADIENT.getVal());
+}
+
+
+@Test
+public void TestGREEK()
+{
+    String expected = """
+                                 
+                 __              
+    /\\          / _)             
+   /  \\  _   _  \\ \\  _   _  ____ 
+  / /\\ \\| | | |/ _ \\| | | |/  ._)
+ / /  \\ \\ |_| ( (_) ) |_| ( () ) 
+/_/    \\_\\___/ \\___/ \\___/ \\__/  
+                                 
+                                 """;
+    Assert.assertEquals(expected,ASCIILogos.GREEK.getVal());
 }
 
 
@@ -2651,7 +2651,7 @@ public void TestHENRY_THREED()
   F L_____  F L__J J  F L__J J  F L__J J  )-____  L
  J________LJ\\____,__LJ\\____,__LJ\\____,__LJ\\______/F
  |________| J____,__F J____,__F J____,__F J______F 
-                                                    """;
+                                                   """;
     Assert.assertEquals(expected,ASCIILogos.HENRY_THREED.getVal());
 }
 
@@ -2670,7 +2670,7 @@ public void TestISOMETRICONE()
   \\:\\  \\    \\:\\  /:/  /   \\:\\  /:/  /   \\:\\  /:/  /   \\:\\ \\:\\__\\  
    \\:\\  \\    \\:\\/:/  /     \\:\\/:/  /     \\:\\/:/  /     \\:\\/:/  /  
     \\:\\__\\    \\::/  /       \\::/__/       \\::/  /       \\::/  /   
-     \\/__/     \\/__/         ~~            \\/__/         \\/__/     """;
+     \\/__/     \\/__/         ~~            \\/__/         \\/__/    """;
     Assert.assertEquals(expected,ASCIILogos.ISOMETRICONE.getVal());
 }
 
@@ -2689,8 +2689,22 @@ public void TestISOMETRICTWO()
   \\:\\  /:/  /   \\:\\  /:/  /   \\:\\  /:/  /   \\:\\  /:/  /   \\::/ /:/  / 
    \\:\\/:/  /     \\:\\/:/  /     \\:\\/:/  /     \\:\\/:/  /     \\/_/:/  /  
     \\::/  /       \\::/  /       \\::/  /       \\::/  /        /:/  /   
-     \\/__/         \\/__/         \\/__/         \\/__/         \\/__/     """;
+     \\/__/         \\/__/         \\/__/         \\/__/         \\/__/    """;
     Assert.assertEquals(expected,ASCIILogos.ISOMETRICTWO.getVal());
+}
+
+
+@Test
+public void TestIVRIT()
+{
+    String expected = """
+                _       _     
+  ___ _   _  __| |_   _| |    
+ / __| | | |/ _` | | | | |    
+ \\__ \\ |_| | (_| | |_| | |___ 
+ |___/\\__,_|\\__,_|\\__,_|_____|
+                              """;
+    Assert.assertEquals(expected,ASCIILogos.IVRIT.getVal());
 }
 
 
@@ -2708,8 +2722,57 @@ public void TestISOMETRICTHREE()
    \\  \\:\\/:/    \\  \\:\\  /:/    \\  \\:\\/:/    \\  \\:\\  /:/   \\  \\::/ /:/ 
     \\  \\::/      \\  \\:\\/:/      \\  \\::/      \\  \\:\\/:/     \\__\\/ /:/  
      \\__\\/        \\  \\::/        \\__\\/        \\  \\::/        /__/:/   
-                   \\__\\/                       \\__\\/         \\__\\/     """;
+                   \\__\\/                       \\__\\/         \\__\\/    """;
     Assert.assertEquals(expected,ASCIILogos.ISOMETRICTHREE.getVal());
+}
+
+
+@Test
+public void TestJERUSALEM()
+{
+    String expected = """
+                              
+ _______ ___   ____ ___ _     
+|____   |_  | |__  |_  | |    
+     | |  | |    | | | | |    
+     | |  | |____| | | | |___ 
+     |_|  |_/____/\\_\\|_|_____|
+                              """;
+    Assert.assertEquals(expected,ASCIILogos.JERUSALEM.getVal());
+}
+
+
+@Test
+public void TestJAZMINE()
+{
+    String expected = """
+                                  
+o                 8               
+8                 8               
+8     o    o .oPYo8 o    o .oPYo. 
+8     8    8 8    8 8    8 Yb..   
+8     8    8 8    8 8    8   'Yb. 
+8oooo `YooP' `YooP' `YooP' `YooP' 
+......:.....::.....::.....::.....:
+::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::""";
+    Assert.assertEquals(expected,ASCIILogos.JAZMINE.getVal());
+}
+
+
+@Test
+public void TestJACKY()
+{
+    String expected = """
+ _____       __    __   ______     __    __    _____  
+(_   _)      ) )  ( (  (_  __ \\    ) )  ( (   / ____\\ 
+  | |       ( (    ) )   ) ) \\ \\  ( (    ) ) ( (___   
+  | |        ) )  ( (   ( (   ) )  ) )  ( (   \\___ \\  
+  | |   __  ( (    ) )   ) )  ) ) ( (    ) )      ) ) 
+__| |___) )  ) \\__/ (   / /__/ /   ) \\__/ (   ___/ /  
+\\________/   \\______/  (______/    \\______/  /____/   
+                                                      """;
+    Assert.assertEquals(expected,ASCIILogos.JACKY.getVal());
 }
 
 
@@ -2727,71 +2790,8 @@ public void TestISOMETRICFOUR()
   \\  \\:\\    \\  \\:\\  /:/   \\  \\:\\  /:/   \\  \\:\\  /:/   \\  \\:\\_\\:\\  
    \\  \\:\\    \\  \\:\\/:/     \\  \\:\\/:/     \\  \\:\\/:/     \\  \\:\\/:/  
     \\  \\:\\    \\  \\::/       \\__\\::/       \\  \\::/       \\  \\::/   
-     \\__\\/     \\__\\/            ~~         \\__\\/         \\__\\/     """;
+     \\__\\/     \\__\\/            ~~         \\__\\/         \\__\\/    """;
     Assert.assertEquals(expected,ASCIILogos.ISOMETRICFOUR.getVal());
-}
-
-
-@Test
-public void TestJAZMINE()
-{
-    String expected = """
-                                  
-o                 8               
-8                 8               
-8     o    o .oPYo8 o    o .oPYo. 
-8     8    8 8    8 8    8 Yb..   
-8     8    8 8    8 8    8   'Yb. 
-8oooo `YooP' `YooP' `YooP' `YooP' 
-......:.....::.....::.....::.....:
-::::::::::::::::::::::::::::::::::
-:::::::::::::::::::::::::::::::::: """;
-    Assert.assertEquals(expected,ASCIILogos.JAZMINE.getVal());
-}
-
-
-@Test
-public void TestJACKY()
-{
-    String expected = """
- _____       __    __   ______     __    __    _____  
-(_   _)      ) )  ( (  (_  __ \\    ) )  ( (   / ____\\ 
-  | |       ( (    ) )   ) ) \\ \\  ( (    ) ) ( (___   
-  | |        ) )  ( (   ( (   ) )  ) )  ( (   \\___ \\  
-  | |   __  ( (    ) )   ) )  ) ) ( (    ) )      ) ) 
-__| |___) )  ) \\__/ (   / /__/ /   ) \\__/ (   ___/ /  
-\\________/   \\______/  (______/    \\______/  /____/   
-                                                       """;
-    Assert.assertEquals(expected,ASCIILogos.JACKY.getVal());
-}
-
-
-@Test
-public void TestJERUSALEM()
-{
-    String expected = """
-                              
- _______ ___   ____ ___ _     
-|____   |_  | |__  |_  | |    
-     | |  | |    | | | | |    
-     | |  | |____| | | | |___ 
-     |_|  |_/____/\\_\\|_|_____|
-                               """;
-    Assert.assertEquals(expected,ASCIILogos.JERUSALEM.getVal());
-}
-
-
-@Test
-public void TestIVRIT()
-{
-    String expected = """
-                _       _     
-  ___ _   _  __| |_   _| |    
- / __| | | |/ _` | | | | |    
- \\__ \\ |_| | (_| | |_| | |___ 
- |___/\\__,_|\\__,_|\\__,_|_____|
-                               """;
-    Assert.assertEquals(expected,ASCIILogos.IVRIT.getVal());
 }
 
 
@@ -2806,7 +2806,7 @@ public void TestKATAKANA()
     ##          ##      #   #  #      ##           #    
   ##          ##       #   ##   #   ##           ##     
 ##          ##              #     ##           ##       
-                                                         """;
+                                                        """;
     Assert.assertEquals(expected,ASCIILogos.KATAKANA.getVal());
 }
 
@@ -2823,25 +2823,8 @@ public void TestKEYBOARD()
 | |L  | | |u  | | |d  | | |u  | | |s  | |
 | +---+ | +---+ | +---+ | +---+ | +---+ |
 |/_____\\|/_____\\|/_____\\|/_____\\|/_____\\|
-                                          """;
+                                         """;
     Assert.assertEquals(expected,ASCIILogos.KEYBOARD.getVal());
-}
-
-
-@Test
-public void TestLARRY_THREED_TWO()
-{
-    String expected = """
- __                  __                    
-/\\ \\                /\\ \\                   
-\\ \\ \\      __  __   \\_\\ \\  __  __    ____  
- \\ \\ \\  __/\\ \\/\\ \\  /'_` \\/\\ \\/\\ \\  /',__\\ 
-  \\ \\ \\L\\ \\ \\ \\_\\ \\/\\ \\L\\ \\ \\ \\_\\ \\/\\__, `\\
-   \\ \\____/\\ \\____/\\ \\___,_\\ \\____/\\/\\____/
-    \\/___/  \\/___/  \\/__,_ /\\/___/  \\/___/ 
-                                           
-                                            """;
-    Assert.assertEquals(expected,ASCIILogos.LARRY_THREED_TWO.getVal());
 }
 
 
@@ -2857,8 +2840,25 @@ public void TestLARRY_THREED()
    \\ \\____/\\ \\____/\\ \\___,_\\ \\____/\\/\\____/
     \\/___/  \\/___/  \\/__,_ /\\/___/  \\/___/ 
                                            
-                                            """;
+                                           """;
     Assert.assertEquals(expected,ASCIILogos.LARRY_THREED.getVal());
+}
+
+
+@Test
+public void TestLARRY_THREED_TWO()
+{
+    String expected = """
+ __                  __                    
+/\\ \\                /\\ \\                   
+\\ \\ \\      __  __   \\_\\ \\  __  __    ____  
+ \\ \\ \\  __/\\ \\/\\ \\  /'_` \\/\\ \\/\\ \\  /',__\\ 
+  \\ \\ \\L\\ \\ \\ \\_\\ \\/\\ \\L\\ \\ \\ \\_\\ \\/\\__, `\\
+   \\ \\____/\\ \\____/\\ \\___,_\\ \\____/\\/\\____/
+    \\/___/  \\/___/  \\/__,_ /\\/___/  \\/___/ 
+                                           
+                                           """;
+    Assert.assertEquals(expected,ASCIILogos.LARRY_THREED_TWO.getVal());
 }
 
 
@@ -2873,7 +2873,7 @@ public void TestLIL_DEVIL()
  |  |OO )|  | |(OO )|  |  ' ||  | |(OO )\\_..`--.  
 (|  '__ ||  | | |  \\|  |  / :|  | | |  \\.-._)   \\ 
  |     |'\\  '-'(_ .'|  '-'  /\\  '-'(_ .'\\       / 
- `-----'  `-----'   `------'  `-----'    `-----'   """;
+ `-----'  `-----'   `------'  `-----'    `-----'  """;
     Assert.assertEquals(expected,ASCIILogos.LIL_DEVIL.getVal());
 }
 
@@ -2889,7 +2889,7 @@ public void TestMARQUEE()
 .::      .::  .::.:   .::.::  .::  .::: 
 .::      .::  .::.:   .::.::  .::    .::
 .::::::::  .::.:: .:: .::  .::.::.:: .::
-                                         """;
+                                        """;
     Assert.assertEquals(expected,ASCIILogos.MARQUEE.getVal());
 }
 
@@ -2905,22 +2905,8 @@ public void TestMERLINONE()
  \\  |___   \\\\ \\__/ // (| (___\\ || \\\\ \\__/ //   __/  \\\\   
 ( \\_|:  \\  /\\\\ __ //\\ |:       :) /\\\\ __ //\\  /\" \\   :)  
  \\_______)(__________)(________/ (__________)(_______/   
-                                                          """;
+                                                         """;
     Assert.assertEquals(expected,ASCIILogos.MERLINONE.getVal());
-}
-
-
-@Test
-public void TestMIRROR()
-{
-    String expected = """
-           _              _ 
- ___ _   _| |__  _   _   | |
-|__ | | | | '_ \\| | | |  | |
-/ __| |_| | |_) | |_| ___| |
-\\___|_.__/|_.__/|_.__|_____|
-                             """;
-    Assert.assertEquals(expected,ASCIILogos.MIRROR.getVal());
 }
 
 
@@ -2936,7 +2922,7 @@ public void TestMERLINTWO()
 \\__  ____))(_   ___))\\  _____//(_   ___))\\\\__  /   
    \\//       \\//      \\//        \\//        \\\\/    
                                                    
-                                                    """;
+                                                   """;
     Assert.assertEquals(expected,ASCIILogos.MERLINTWO.getVal());
 }
 
@@ -2948,8 +2934,22 @@ public void TestMINI()
                    
  |       _|      _ 
  |_ |_| (_| |_| _> 
-                    """;
+                   """;
     Assert.assertEquals(expected,ASCIILogos.MINI.getVal());
+}
+
+
+@Test
+public void TestMIRROR()
+{
+    String expected = """
+           _              _ 
+ ___ _   _| |__  _   _   | |
+|__ | | | | '_ \\| | | |  | |
+/ __| |_| | |_) | |_| ___| |
+\\___|_.__/|_.__/|_.__|_____|
+                            """;
+    Assert.assertEquals(expected,ASCIILogos.MIRROR.getVal());
 }
 
 
@@ -2965,24 +2965,8 @@ public void TestNT_GREEK()
  / /  \\ \\ |_| ( (_) ) |_| ( () ) 
 /_/    \\_\\___/ \\___/ \\___/ \\__/  
                                  
-                                  """;
+                                 """;
     Assert.assertEquals(expected,ASCIILogos.NT_GREEK.getVal());
-}
-
-
-@Test
-public void TestNANCYJ_IMPROVED()
-{
-    String expected = """
-dP                       dP                   
-88                       88                   
-88        dP    dP .d888b88 dP    dP .d8888b. 
-88        88    88 88'  `88 88    88 Y8ooooo. 
-88        88.  .88 88.  .88 88.  .88       88 
-88888888P `88888P' `88888P8 `88888P' `88888P' 
-                                              
-                                               """;
-    Assert.assertEquals(expected,ASCIILogos.NANCYJ_IMPROVED.getVal());
 }
 
 
@@ -2997,13 +2981,13 @@ M  MMMMMMMM 88    88 88'  `88 88    88 Y8ooooo.
 M  MMMMMMMM 88.  .88 88.  .88 88.  .88       88 
 M         M `88888P' `88888P8 `88888P' `88888P' 
 MMMMMMMMMMM                                     
-                                                 """;
+                                                """;
     Assert.assertEquals(expected,ASCIILogos.NANCYJ_FANCY.getVal());
 }
 
 
 @Test
-public void TestNANCYJ_UNDERLINED()
+public void TestNANCYJ_IMPROVED()
 {
     String expected = """
 dP                       dP                   
@@ -3012,9 +2996,9 @@ dP                       dP
 88        88    88 88'  `88 88    88 Y8ooooo. 
 88        88.  .88 88.  .88 88.  .88       88 
 88888888P `88888P' `88888P8 `88888P' `88888P' 
-oooooooooooooooooooooooooooooooooooooooooooooo
-                                               """;
-    Assert.assertEquals(expected,ASCIILogos.NANCYJ_UNDERLINED.getVal());
+                                              
+                                              """;
+    Assert.assertEquals(expected,ASCIILogos.NANCYJ_IMPROVED.getVal());
 }
 
 
@@ -3029,8 +3013,24 @@ dP                       dP
 88        88.  .88 88.  .88 88.  .88       88 
 88888888P `88888P' `88888P8 `88888P' `88888P' 
                                               
-                                               """;
+                                              """;
     Assert.assertEquals(expected,ASCIILogos.NANCYJ.getVal());
+}
+
+
+@Test
+public void TestNANCYJ_UNDERLINED()
+{
+    String expected = """
+dP                       dP                   
+88                       88                   
+88        dP    dP .d888b88 dP    dP .d8888b. 
+88        88    88 88'  `88 88    88 Y8ooooo. 
+88        88.  .88 88.  .88 88.  .88       88 
+88888888P `88888P' `88888P8 `88888P' `88888P' 
+oooooooooooooooooooooooooooooooooooooooooooooo
+                                              """;
+    Assert.assertEquals(expected,ASCIILogos.NANCYJ_UNDERLINED.getVal());
 }
 
 
@@ -3043,8 +3043,23 @@ ooooo                        oooo
  888        888   888 888    888  888   888  888ooooooo  
  888      o 888   888 888    888  888   888          888 
 o888ooooo88  888o88 8o  88ooo888o  888o88 8o 88oooooo88  
-                                                          """;
+                                                         """;
     Assert.assertEquals(expected,ASCIILogos.O8.getVal());
+}
+
+
+@Test
+public void TestOSTWO()
+{
+    String expected = """
+oo___________________oo________________
+oo______oo____o__oooooo_oo____o__oooo__
+oo______oo____o_oo___oo_oo____o_oo___o_
+oo______oo____o_oo___oo_oo____o___oo___
+oo______ooo___o_oo___oo_ooo___o_o___oo_
+ooooooo_oo_ooo___oooooo_oo_ooo___oooo__
+_______________________________________""";
+    Assert.assertEquals(expected,ASCIILogos.OSTWO.getVal());
 }
 
 
@@ -3059,23 +3074,8 @@ public void TestNIPPLES()
 {__      {__  {__{_   {__{__  {__  {___ 
 {__      {__  {__{_   {__{__  {__    {__
 {________  {__{__ {__ {__  {__{__{__ {__
-                                         """;
+                                        """;
     Assert.assertEquals(expected,ASCIILogos.NIPPLES.getVal());
-}
-
-
-@Test
-public void TestOSTWO()
-{
-    String expected = """
-oo___________________oo________________
-oo______oo____o__oooooo_oo____o__oooo__
-oo______oo____o_oo___oo_oo____o_oo___o_
-oo______oo____o_oo___oo_oo____o___oo___
-oo______ooo___o_oo___oo_ooo___o_o___oo_
-ooooooo_oo_ooo___oooooo_oo_ooo___oooo__
-_______________________________________ """;
-    Assert.assertEquals(expected,ASCIILogos.OSTWO.getVal());
 }
 
 
@@ -3085,7 +3085,7 @@ public void TestPAGGA()
     String expected = """
 ░█░░░█░█░█▀▄░█░█░█▀▀
 ░█░░░█░█░█░█░█░█░▀▀█
-░▀▀▀░▀▀▀░▀▀░░▀▀▀░▀▀▀ """;
+░▀▀▀░▀▀▀░▀▀░░▀▀▀░▀▀▀""";
     Assert.assertEquals(expected,ASCIILogos.PAGGA.getVal());
 }
 
@@ -3107,7 +3107,7 @@ public void TestPATORJKS_CHEESE()
 |____|_____|/ \\|____|____||____|____|/  \\|____|____| \\|____|_____|   
   \\(    )/       \\(   )/    \\(    )/       \\(   )/      \\(    )/     
    '    '         '   '      '    '         '   '        '    '      
-                                                                      """;
+                                                                     """;
     Assert.assertEquals(expected,ASCIILogos.PATORJKS_CHEESE.getVal());
 }
 
@@ -3124,7 +3124,7 @@ public void TestPAWP()
 (_)____(_)_(_)(_)_(_)(_)_(_) _(__)
 (______)(___)  (____) (___) (____)
                                   
-                                   """;
+                                  """;
     Assert.assertEquals(expected,ASCIILogos.PAWP.getVal());
 }
 
@@ -3140,8 +3140,22 @@ public void TestPEAKS()
 /^^      /^^  /^^/^   /^^/^^  /^^  /^^^ 
 /^^      /^^  /^^/^   /^^/^^  /^^    /^^
 /^^^^^^^^  /^^/^^ /^^ /^^  /^^/^^/^^ /^^
-                                         """;
+                                        """;
     Assert.assertEquals(expected,ASCIILogos.PEAKS.getVal());
+}
+
+
+@Test
+public void TestPEAKS_SLANT()
+{
+    String expected = """
+     _/\\/\\__________________________/\\/\\_________________________
+    _/\\/\\________/\\/\\__/\\/\\________/\\/\\__/\\/\\__/\\/\\____/\\/\\/\\/\\_ 
+   _/\\/\\________/\\/\\__/\\/\\____/\\/\\/\\/\\__/\\/\\__/\\/\\__/\\/\\/\\/\\___  
+  _/\\/\\________/\\/\\__/\\/\\__/\\/\\__/\\/\\__/\\/\\__/\\/\\________/\\/\\_   
+ _/\\/\\/\\/\\/\\____/\\/\\/\\/\\____/\\/\\/\\/\\____/\\/\\/\\/\\__/\\/\\/\\/\\___    
+____________________________________________________________     """;
+    Assert.assertEquals(expected,ASCIILogos.PEAKS_SLANT.getVal());
 }
 
 
@@ -3158,22 +3172,8 @@ O       o   O  o   O  o   O  `Ooo.
 o     . O   o  O   o  O   o      O 
 OOoOooO `OoO'o `OoO'o `OoO'o `OoO' 
                                    
-                                    """;
+                                   """;
     Assert.assertEquals(expected,ASCIILogos.PEBBLES.getVal());
-}
-
-
-@Test
-public void TestPEAKS_SLANT()
-{
-    String expected = """
-     _/\\/\\__________________________/\\/\\_________________________
-    _/\\/\\________/\\/\\__/\\/\\________/\\/\\__/\\/\\__/\\/\\____/\\/\\/\\/\\_ 
-   _/\\/\\________/\\/\\__/\\/\\____/\\/\\/\\/\\__/\\/\\__/\\/\\__/\\/\\/\\/\\___  
-  _/\\/\\________/\\/\\__/\\/\\__/\\/\\__/\\/\\__/\\/\\__/\\/\\________/\\/\\_   
- _/\\/\\/\\/\\/\\____/\\/\\/\\/\\____/\\/\\/\\/\\____/\\/\\/\\/\\__/\\/\\/\\/\\___    
-____________________________________________________________      """;
-    Assert.assertEquals(expected,ASCIILogos.PEAKS_SLANT.getVal());
 }
 
 
@@ -3192,7 +3192,7 @@ public void TestPOISON()
  :!:      :!:  !:!  :!:  !:!  :!:  !:!      !:!   
  :: ::::  ::::: ::   :::: ::  ::::: ::  :::: ::   
 : :: : :   : :  :   :: :  :    : :  :   :: : :    
-                                                   """;
+                                                  """;
     Assert.assertEquals(expected,ASCIILogos.POISON.getVal());
 }
 
@@ -3207,7 +3207,7 @@ public void TestRAMMSTEIN()
  |    |_     ||  |_| ||      \\|  |_| | `-.`-.  
  |______|  __||______||______/|______||______| 
     |_____|                                    
-                                                """;
+                                               """;
     Assert.assertEquals(expected,ASCIILogos.RAMMSTEIN.getVal());
 }
 
@@ -3222,7 +3222,7 @@ public void TestRED_PHOENIX()
 |    |___ |  |  // /_/ ||  |  /\\___ \\  
 |_______ \\|____/ \\____ ||____//____  > 
         \\/            \\/           \\/  
-                                        """;
+                                       """;
     Assert.assertEquals(expected,ASCIILogos.RED_PHOENIX.getVal());
 }
 
@@ -3237,23 +3237,8 @@ _______________________________________________________
 /~~\\_______/~~\\__/~~\\_/~~\\__/~~\\_/~~\\__/~~\\__/~~~~~~\\__
 /~~\\_______/~~\\__/~~\\_/~~\\__/~~\\_/~~\\__/~~\\_______/~~\\_
 /~~~~~~~~\\__/~~~~~~\\__/~~~~~~~\\___/~~~~~~\\___/~~~~~~\\__
-_______________________________________________________ """;
+_______________________________________________________""";
     Assert.assertEquals(expected,ASCIILogos.RELIEF.getVal());
-}
-
-
-@Test
-public void TestRELIEFTWO()
-{
-    String expected = """
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-/// \\\\\\\\\\\\\\/// \\\\/// \\//////// \\\\/// \\\\/// \\\\/////// \\\\
-/// \\\\\\\\\\\\\\/// \\\\/// \\/// \\\\/// \\/// \\\\/// \\/// \\\\\\\\\\\\\\
-/// \\\\\\\\\\\\\\/// \\\\/// \\/// \\\\/// \\/// \\\\/// \\\\/////// \\\\
-/// \\\\\\\\\\\\\\/// \\\\/// \\/// \\\\/// \\/// \\\\/// \\\\\\\\\\\\\\/// \\
-///////// \\\\/////// \\\\//////// \\\\\\/////// \\\\\\/////// \\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ """;
-    Assert.assertEquals(expected,ASCIILogos.RELIEFTWO.getVal());
 }
 
 
@@ -3271,8 +3256,23 @@ public void TestREVERSE()
 =  ========  =  ==  =  ==  =  ====  ==
 =  ========  =  ==  =  ==  =  ==  =  =
 =        ===    ===    ===    ===   ==
-====================================== """;
+======================================""";
     Assert.assertEquals(expected,ASCIILogos.REVERSE.getVal());
+}
+
+
+@Test
+public void TestRELIEFTWO()
+{
+    String expected = """
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+/// \\\\\\\\\\\\\\/// \\\\/// \\//////// \\\\/// \\\\/// \\\\/////// \\\\
+/// \\\\\\\\\\\\\\/// \\\\/// \\/// \\\\/// \\/// \\\\/// \\/// \\\\\\\\\\\\\\
+/// \\\\\\\\\\\\\\/// \\\\/// \\/// \\\\/// \\/// \\\\/// \\\\/////// \\\\
+/// \\\\\\\\\\\\\\/// \\\\/// \\/// \\\\/// \\/// \\\\/// \\\\\\\\\\\\\\/// \\
+///////// \\\\/////// \\\\//////// \\\\\\/////// \\\\\\/////// \\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\""";
+    Assert.assertEquals(expected,ASCIILogos.RELIEFTWO.getVal());
 }
 
 
@@ -3289,7 +3289,7 @@ ooooo                          .o8
 o888ooooood8  `V88V\"V8P' `Y8bod88P\"  `V88V\"V8P' 8\"\"888P' 
                                                          
                                                          
-                                                          """;
+                                                         """;
     Assert.assertEquals(expected,ASCIILogos.ROMAN.getVal());
 }
 
@@ -3302,7 +3302,7 @@ public void TestSHADOW()
   |      |   |   _` |  |   |   __| 
   |      |   |  (   |  |   | \\__ \\ 
  _____| \\__,_| \\__,_| \\__,_| ____/ 
-                                    """;
+                                   """;
     Assert.assertEquals(expected,ASCIILogos.SHADOW.getVal());
 }
 
@@ -3316,8 +3316,34 @@ public void TestSLANT()
   / /   / / / / __  / / / / ___/
  / /___/ /_/ / /_/ / /_/ (__  ) 
 /_____/\\__,_/\\__,_/\\__,_/____/  
-                                 """;
+                                """;
     Assert.assertEquals(expected,ASCIILogos.SLANT.getVal());
+}
+
+
+@Test
+public void TestSMALL_SCRIPT()
+{
+    String expected = """
+                            
+ \\_|)         _|         ,  
+   |   |  |  / |  |  |  / \\_
+  (\\__/ \\/|_/\\/|_/ \\/|_/ \\/ 
+                            """;
+    Assert.assertEquals(expected,ASCIILogos.SMALL_SCRIPT.getVal());
+}
+
+
+@Test
+public void TestSMALL()
+{
+    String expected = """
+  _           _         
+ | |  _  _ __| |_  _ ___
+ | |_| || / _` | || (_-<
+ |____\\_,_\\__,_|\\_,_/__/
+                        """;
+    Assert.assertEquals(expected,ASCIILogos.SMALL.getVal());
 }
 
 
@@ -3331,21 +3357,8 @@ public void TestSMALL_POISON()
 @!!      @!@  !@! @!@  !@! @!@  !@!  !@@!!  
 !!:      !!:  !!! !!:  !!! !!:  !!!     !:! 
 : ::.: :  :.:: :  :: :  :   :.:: :  ::.: :  
-                                             """;
+                                            """;
     Assert.assertEquals(expected,ASCIILogos.SMALL_POISON.getVal());
-}
-
-
-@Test
-public void TestSMALL_SCRIPT()
-{
-    String expected = """
-                            
- \\_|)         _|         ,  
-   |   |  |  / |  |  |  / \\_
-  (\\__/ \\/|_/\\/|_/ \\/|_/ \\/ 
-                             """;
-    Assert.assertEquals(expected,ASCIILogos.SMALL_SCRIPT.getVal());
 }
 
 
@@ -3356,34 +3369,8 @@ public void TestSMALL_SHADOW()
   |               |            
   |     |  |   _` |  |  | (_-< 
  ____| \\_,_| \\__,_| \\_,_| ___/ 
-                                """;
+                               """;
     Assert.assertEquals(expected,ASCIILogos.SMALL_SHADOW.getVal());
-}
-
-
-@Test
-public void TestSMALL()
-{
-    String expected = """
-  _           _         
- | |  _  _ __| |_  _ ___
- | |_| || / _` | || (_-<
- |____\\_,_\\__,_|\\_,_/__/
-                         """;
-    Assert.assertEquals(expected,ASCIILogos.SMALL.getVal());
-}
-
-
-@Test
-public void TestSMALL_SLANT()
-{
-    String expected = """
-   __           __       
-  / /  __ _____/ /_ _____
- / /__/ // / _  / // (_-<
-/____/\\_,_/\\_,_/\\_,_/___/
-                          """;
-    Assert.assertEquals(expected,ASCIILogos.SMALL_SLANT.getVal());
 }
 
 
@@ -3397,8 +3384,21 @@ public void TestSOFT()
 |  |   |  ||  |' .-. ||  ||  |(  .-'  
 |  '--.'  ''  '\\ `-' |'  ''  '.-'  `) 
 `-----' `----'  `---'  `----' `----'  
-                                       """;
+                                      """;
     Assert.assertEquals(expected,ASCIILogos.SOFT.getVal());
+}
+
+
+@Test
+public void TestSMALL_SLANT()
+{
+    String expected = """
+   __           __       
+  / /  __ _____/ /_ _____
+ / /__/ // / _  / // (_-<
+/____/\\_,_/\\_,_/\\_,_/___/
+                         """;
+    Assert.assertEquals(expected,ASCIILogos.SMALL_SLANT.getVal());
 }
 
 
@@ -3411,22 +3411,8 @@ ___  / ____  _______  /___  _________
 __  /  _  / / /  __  /_  / / /_  ___/
 _  /___/ /_/ // /_/ / / /_/ /_(__  ) 
 /_____/\\__,_/ \\__,_/  \\__,_/ /____/  
-                                      """;
+                                     """;
     Assert.assertEquals(expected,ASCIILogos.SPEED.getVal());
-}
-
-
-@Test
-public void TestSTAMPATELLO()
-{
-    String expected = """
- ,         .         
- )   . . ,-| . . ,-. 
-/    | | | | | | `-. 
-`--' `-^ `-^ `-^ `-' 
-                     
-                      """;
-    Assert.assertEquals(expected,ASCIILogos.STAMPATELLO.getVal());
 }
 
 
@@ -3442,24 +3428,22 @@ public void TestSTAR_STRIPS()
 ************ ************ **        ** ************        ***** 
 ------------ ------------ ------------ ------------ ------------ 
 ************ ************ **********   ************ ************ 
-                                                                  """;
+                                                                 """;
     Assert.assertEquals(expected,ASCIILogos.STAR_STRIPS.getVal());
 }
 
 
 @Test
-public void TestSWAMP_LAND()
+public void TestSTAMPATELLO()
 {
     String expected = """
- __       __  __   ______   __  __   ______      
-/_/\\     /_/\\/_/\\ /_____/\\ /_/\\/_/\\ /_____/\\     
-\\:\\ \\    \\:\\ \\:\\ \\\\:::_ \\ \\\\:\\ \\:\\ \\\\::::_\\/_    
- \\:\\ \\    \\:\\ \\:\\ \\\\:\\ \\ \\ \\\\:\\ \\:\\ \\\\:\\/___/\\   
-  \\:\\ \\____\\:\\ \\:\\ \\\\:\\ \\ \\ \\\\:\\ \\:\\ \\\\_::._\\:\\  
-   \\:\\/___/\\\\:\\_\\:\\ \\\\:\\/.:| |\\:\\_\\:\\ \\ /____\\:\\ 
-    \\_____\\/ \\_____\\/ \\____/_/ \\_____\\/ \\_____\\/ 
-                                                  """;
-    Assert.assertEquals(expected,ASCIILogos.SWAMP_LAND.getVal());
+ ,         .         
+ )   . . ,-| . . ,-. 
+/    | | | | | | `-. 
+`--' `-^ `-^ `-^ `-' 
+                     
+                     """;
+    Assert.assertEquals(expected,ASCIILogos.STAMPATELLO.getVal());
 }
 
 
@@ -3474,8 +3458,24 @@ public void TestSTELLAR()
 `..      `..  `..`.   `..`..  `..  `... 
 `..      `..  `..`.   `..`..  `..    `..
 `........  `..`.. `.. `..  `..`..`.. `..
-                                         """;
+                                        """;
     Assert.assertEquals(expected,ASCIILogos.STELLAR.getVal());
+}
+
+
+@Test
+public void TestSWAMP_LAND()
+{
+    String expected = """
+ __       __  __   ______   __  __   ______      
+/_/\\     /_/\\/_/\\ /_____/\\ /_/\\/_/\\ /_____/\\     
+\\:\\ \\    \\:\\ \\:\\ \\\\:::_ \\ \\\\:\\ \\:\\ \\\\::::_\\/_    
+ \\:\\ \\    \\:\\ \\:\\ \\\\:\\ \\ \\ \\\\:\\ \\:\\ \\\\:\\/___/\\   
+  \\:\\ \\____\\:\\ \\:\\ \\\\:\\ \\ \\ \\\\:\\ \\:\\ \\\\_::._\\:\\  
+   \\:\\/___/\\\\:\\_\\:\\ \\\\:\\/.:| |\\:\\_\\:\\ \\ /____\\:\\ 
+    \\_____\\/ \\_____\\/ \\____/_/ \\_____\\/ \\_____\\/ 
+                                                 """;
+    Assert.assertEquals(expected,ASCIILogos.SWAMP_LAND.getVal());
 }
 
 
@@ -3491,7 +3491,7 @@ public void TestSWAN()
 |    |  |(   | |  | `--.
 '---'`--`-`-'`-`--`-`--'
                         
-                         """;
+                        """;
     Assert.assertEquals(expected,ASCIILogos.SWAN.getVal());
 }
 
@@ -3512,7 +3512,7 @@ public void TestSWEET()
  | |   ' `-'  /  ' `-'  /   ' `-'  /   ; '._,' '  
 (___)   '.__.'    `.__,'     '.__.'     '.___.'   
                                                   
-                                                   """;
+                                                  """;
     Assert.assertEquals(expected,ASCIILogos.SWEET.getVal());
 }
 
@@ -3521,7 +3521,7 @@ public void TestSWEET()
 public void TestTERM()
 {
     String expected = """
-Ludus """;
+Ludus""";
     Assert.assertEquals(expected,ASCIILogos.TERM.getVal());
 }
 
@@ -3539,7 +3539,7 @@ public void TestTENGWAR()
  88     .      .8P    88  ,dP  ,dP     .8P       .dP  
  `Yb...dP             88                       .dP'   
    `\"\"\"'              88                     .dP'     
-                     .8P                               """;
+                     .8P                              """;
     Assert.assertEquals(expected,ASCIILogos.TENGWAR.getVal());
 }
 
@@ -3553,7 +3553,7 @@ public void TestTICKS_SLANT()
    _/\\/\\________/\\/\\__/\\/\\____/\\/\\/\\/\\__/\\/\\__/\\/\\__/\\/\\/\\/\\___  
   _/\\/\\________/\\/\\__/\\/\\__/\\/\\__/\\/\\__/\\/\\__/\\/\\________/\\/\\_   
  _/\\/\\/\\/\\/\\____/\\/\\/\\/\\____/\\/\\/\\/\\____/\\/\\/\\/\\__/\\/\\/\\/\\___    
-____________________________________________________________      """;
+____________________________________________________________     """;
     Assert.assertEquals(expected,ASCIILogos.TICKS_SLANT.getVal());
 }
 
@@ -3569,8 +3569,49 @@ public void TestTILES()
 [..      [..  [..[.   [..[..  [..  [... 
 [..      [..  [..[.   [..[..  [..    [..
 [........  [..[.. [.. [..  [..[..[.. [..
-                                         """;
+                                        """;
     Assert.assertEquals(expected,ASCIILogos.TILES.getVal());
+}
+
+
+@Test
+public void TestTICKS()
+{
+    String expected = """
+_/\\/\\__________________________/\\/\\_________________________
+_/\\/\\________/\\/\\__/\\/\\________/\\/\\__/\\/\\__/\\/\\____/\\/\\/\\/\\_
+_/\\/\\________/\\/\\__/\\/\\____/\\/\\/\\/\\__/\\/\\__/\\/\\__/\\/\\/\\/\\___
+_/\\/\\________/\\/\\__/\\/\\__/\\/\\__/\\/\\__/\\/\\__/\\/\\________/\\/\\_
+_/\\/\\/\\/\\/\\____/\\/\\/\\/\\____/\\/\\/\\/\\____/\\/\\/\\/\\__/\\/\\/\\/\\___
+____________________________________________________________""";
+    Assert.assertEquals(expected,ASCIILogos.TICKS.getVal());
+}
+
+
+@Test
+public void TestTREK()
+{
+    String expected = """
+     dBP    dBP dBP dBBBBb  dBP dBP.dBBBBP
+                       dBP         BP     
+   dBP    dBP dBP dBP dBP dBP dBP  `BBBBb 
+  dBP    dBP_dBP dBP dBP dBP_dBP      dBP 
+ dBBBBP dBBBBBP dBBBBBP dBBBBBP  dBBBBP'  
+                                          """;
+    Assert.assertEquals(expected,ASCIILogos.TREK.getVal());
+}
+
+
+@Test
+public void TestTSALAGI()
+{
+    String expected = """
+____           ___             __  
+ |  \\   ,  |~,  |     ,  |~,  /  \\ 
+ |__/  @|  |  (>|__  @|  |  __\\___ 
+ |      |  /    | /   |  /      \\  
+.|__     \\/     |/     \\/    \\__/  """;
+    Assert.assertEquals(expected,ASCIILogos.TSALAGI.getVal());
 }
 
 
@@ -3585,64 +3626,8 @@ O~~      O~~  O~~ O~~ O~~O~~  O~~O~~
 O~~      O~~  O~~O~   O~~O~~  O~~  O~~~ 
 O~~      O~~  O~~O~   O~~O~~  O~~    O~~
 O~~~~~~~~  O~~O~~ O~~ O~~  O~~O~~O~~ O~~
-                                         """;
+                                        """;
     Assert.assertEquals(expected,ASCIILogos.TUBULAR.getVal());
-}
-
-
-@Test
-public void TestTICKS()
-{
-    String expected = """
-_/\\/\\__________________________/\\/\\_________________________
-_/\\/\\________/\\/\\__/\\/\\________/\\/\\__/\\/\\__/\\/\\____/\\/\\/\\/\\_
-_/\\/\\________/\\/\\__/\\/\\____/\\/\\/\\/\\__/\\/\\__/\\/\\__/\\/\\/\\/\\___
-_/\\/\\________/\\/\\__/\\/\\__/\\/\\__/\\/\\__/\\/\\__/\\/\\________/\\/\\_
-_/\\/\\/\\/\\/\\____/\\/\\/\\/\\____/\\/\\/\\/\\____/\\/\\/\\/\\__/\\/\\/\\/\\___
-____________________________________________________________ """;
-    Assert.assertEquals(expected,ASCIILogos.TICKS.getVal());
-}
-
-
-@Test
-public void TestTREK()
-{
-    String expected = """
-     dBP    dBP dBP dBBBBb  dBP dBP.dBBBBP
-                       dBP         BP     
-   dBP    dBP dBP dBP dBP dBP dBP  `BBBBb 
-  dBP    dBP_dBP dBP dBP dBP_dBP      dBP 
- dBBBBP dBBBBBP dBBBBBP dBBBBBP  dBBBBP'  
-                                           """;
-    Assert.assertEquals(expected,ASCIILogos.TREK.getVal());
-}
-
-
-@Test
-public void TestTSALAGI()
-{
-    String expected = """
-____           ___             __  
- |  \\   ,  |~,  |     ,  |~,  /  \\ 
- |__/  @|  |  (>|__  @|  |  __\\___ 
- |      |  /    | /   |  /      \\  
-.|__     \\/     |/     \\/    \\__/   """;
-    Assert.assertEquals(expected,ASCIILogos.TSALAGI.getVal());
-}
-
-
-@Test
-public void TestVARSITY()
-{
-    String expected = """
-  _____                   __                 
- |_   _|                 |  ]                
-   | |     __   _    .--.| | __   _   .--.   
-   | |   _[  | | | / /'`\\' |[  | | | ( (`\\]  
-  _| |__/ || \\_/ |,| \\__/  | | \\_/ |, `'.'.  
- |________|'.__.'_/ '.__.;__]'.__.'_/[\\__) ) 
-                                              """;
-    Assert.assertEquals(expected,ASCIILogos.VARSITY.getVal());
 }
 
 
@@ -3657,8 +3642,23 @@ public void TestTWISTED()
  / / /__ \\ \\  / / \\ \\ \\/ / / \\ \\  / /   _\\ \\ \\  
 ( (_____(( (__) )  ) )__/ /  ( (__) )  )____) ) 
  \\/_____/ \\/__\\/   \\/___\\/    \\/__\\/   \\____\\/  
-                                                 """;
+                                                """;
     Assert.assertEquals(expected,ASCIILogos.TWISTED.getVal());
+}
+
+
+@Test
+public void TestVARSITY()
+{
+    String expected = """
+  _____                   __                 
+ |_   _|                 |  ]                
+   | |     __   _    .--.| | __   _   .--.   
+   | |   _[  | | | / /'`\\' |[  | | | ( (`\\]  
+  _| |__/ || \\_/ |,| \\__/  | | \\_/ |, `'.'.  
+ |________|'.__.'_/ '.__.;__]'.__.'_/[\\__) ) 
+                                             """;
+    Assert.assertEquals(expected,ASCIILogos.VARSITY.getVal());
 }
 
 
@@ -3669,7 +3669,7 @@ public void TestWAVY()
                    
  )       _ )     _ 
 (__ (_( (_( (_( (  
-                _)  """;
+                _) """;
     Assert.assertEquals(expected,ASCIILogos.WAVY.getVal());
 }
 
@@ -3688,7 +3688,7 @@ public void TestUNIVERS()
 88          \"8a,   ,a88  \"8a,   ,d88  \"8a,   ,a88  aa    ]8I  
 88888888888  `\"YbbdP'Y8   `\"8bbdP\"Y8   `\"YbbdP'Y8  `\"YbbdP\"'  
                                                               
-                                                               """;
+                                                              """;
     Assert.assertEquals(expected,ASCIILogos.UNIVERS.getVal());
 }
 
@@ -3706,7 +3706,7 @@ d88                d88
   88b`?88P'?8b`?88P'`88b`?88P'?8b`?888P' 
                                          
                                          
-                                          """;
+                                         """;
     Assert.assertEquals(expected,ASCIILogos.WHIMSY.getVal());
 }
 
@@ -3726,7 +3726,7 @@ public void TestACROBATIC()
  / \\ _\\o__/_   <\\__ __/>    <\\__  / \\   <\\__ __/>   _\\o__</   
                                                               
                                                               
-                                                               """;
+                                                              """;
     Assert.assertEquals(expected,ASCIILogos.ACROBATIC.getVal());
 }
 
@@ -3746,24 +3746,8 @@ public void TestBIG_MONEY_SE()
  \\$$$$$$$$ \\$$$$$$   \\$$$$$$$  \\$$$$$$  \\$$$$$$$ 
                                                  
                                                  
-                                                  """;
+                                                 """;
     Assert.assertEquals(expected,ASCIILogos.BIG_MONEY_SE.getVal());
-}
-
-
-@Test
-public void TestBLOCK()
-{
-    String expected = """
-                                                   
- _|                        _|                      
- _|        _|    _|    _|_|_|  _|    _|    _|_|_|  
- _|        _|    _|  _|    _|  _|    _|  _|_|      
- _|        _|    _|  _|    _|  _|    _|      _|_|  
- _|_|_|_|    _|_|_|    _|_|_|    _|_|_|  _|_|_|    
-                                                   
-                                                    """;
-    Assert.assertEquals(expected,ASCIILogos.BLOCK.getVal());
 }
 
 
@@ -3782,20 +3766,24 @@ $$       |$$    $$/ $$    $$ |$$    $$/ /     $$/
 $$$$$$$$/  $$$$$$/   $$$$$$$/  $$$$$$/  $$$$$$$/  
                                                   
                                                   
-                                                   """;
+                                                  """;
     Assert.assertEquals(expected,ASCIILogos.BIG_MONEY_SW.getVal());
 }
 
 
 @Test
-public void TestBUBBLE()
+public void TestBLOCK()
 {
     String expected = """
-   _   _   _   _   _  
-  / \\ / \\ / \\ / \\ / \\ 
- ( L | u | d | u | s )
-  \\_/ \\_/ \\_/ \\_/ \\_/  """;
-    Assert.assertEquals(expected,ASCIILogos.BUBBLE.getVal());
+                                                   
+ _|                        _|                      
+ _|        _|    _|    _|_|_|  _|    _|    _|_|_|  
+ _|        _|    _|  _|    _|  _|    _|  _|_|      
+ _|        _|    _|  _|    _|  _|    _|      _|_|  
+ _|_|_|_|    _|_|_|    _|_|_|    _|_|_|  _|_|_|    
+                                                   
+                                                   """;
+    Assert.assertEquals(expected,ASCIILogos.BLOCK.getVal());
 }
 
 
@@ -3823,7 +3811,7 @@ public void TestCALIGRAPHY()
  **                                                                  
                                                                      
                                                                      
-                                                                      """;
+                                                                     """;
     Assert.assertEquals(expected,ASCIILogos.CALIGRAPHY.getVal());
 }
 
@@ -3851,8 +3839,20 @@ public void TestCALIGRAPHYTWO()
 #                                                                
  ##                                                              
                                                                  
-                                                                  """;
+                                                                 """;
     Assert.assertEquals(expected,ASCIILogos.CALIGRAPHYTWO.getVal());
+}
+
+
+@Test
+public void TestBUBBLE()
+{
+    String expected = """
+   _   _   _   _   _  
+  / \\ / \\ / \\ / \\ / \\ 
+ ( L | u | d | u | s )
+  \\_/ \\_/ \\_/ \\_/ \\_/ """;
+    Assert.assertEquals(expected,ASCIILogos.BUBBLE.getVal());
 }
 
 
@@ -3872,7 +3872,7 @@ public void TestCRAZY()
 |   | /  | /  |/_______.'/ /  | /  |   .'.'| |// 
 '---'|   `'.  |\\_______|/ |   `'.  | .'.'.-'  /  
      '   .'|  '/          '   .'|  '/.'   \\_.'   
-      `-'  `--'            `-'  `--'              """;
+      `-'  `--'            `-'  `--'             """;
     Assert.assertEquals(expected,ASCIILogos.CRAZY.getVal());
 }
 
@@ -3890,8 +3890,26 @@ public void TestDOT_MATRIX()
    (_) _  _  _  _(_)_  _  _(_)_(_)_  _  _ (_)(_)_  _  _(_)_  _  _  _  _(_)  
    (_)(_)(_)(_)(_) (_)(_)(_) (_) (_)(_)(_)(_)  (_)(_)(_) (_)(_)(_)(_)(_)    
                                                                             
-                                                                             """;
+                                                                            """;
     Assert.assertEquals(expected,ASCIILogos.DOT_MATRIX.getVal());
+}
+
+
+@Test
+public void TestHOLLYWOOD()
+{
+    String expected = """
+              _                                   
+            /~_)                   /'             
+        ~-/'-~                   /'               
+        /'               _____,/'          ____   
+      /'      /'    /  /'    /' /'    /  /'    )--
+ /~\\,'   _  /'    /' /'    /' /'    /'  '---,     
+(,/'`\\____)(___,/(__(___,/(__(___,/(__(___,/      
+                                                  
+                                                  
+                                                  """;
+    Assert.assertEquals(expected,ASCIILogos.HOLLYWOOD.getVal());
 }
 
 
@@ -3910,26 +3928,8 @@ public void TestIMPOSSIBLE()
  / /_/_/ ___/\\ / / /___/ / / \\ \\ \\__/ / /    / / /___/ / //_/\\__/ / /      
 /_______/\\__\\// / /____\\/ /   \\ \\___\\/ /    / / /____\\/ / \\ \\/___/ /       
 \\_______\\/    \\/_________/     \\/_____/     \\/_________/   \\_____\\/        
-                                                                            """;
+                                                                           """;
     Assert.assertEquals(expected,ASCIILogos.IMPOSSIBLE.getVal());
-}
-
-
-@Test
-public void TestHOLLYWOOD()
-{
-    String expected = """
-              _                                   
-            /~_)                   /'             
-        ~-/'-~                   /'               
-        /'               _____,/'          ____   
-      /'      /'    /  /'    /' /'    /  /'    )--
- /~\\,'   _  /'    /' /'    /' /'    /'  '---,     
-(,/'`\\____)(___,/(__(___,/(__(___,/(__(___,/      
-                                                  
-                                                  
-                                                   """;
-    Assert.assertEquals(expected,ASCIILogos.HOLLYWOOD.getVal());
 }
 
 
@@ -3952,7 +3952,7 @@ Yb,_,d88b,,_   ,d8b,  ,d8b,,d8,   ,d8b,,d8b,  ,d8b,,8'_   8)
                                                              
                                                              
                                                              
-                                                              """;
+                                                             """;
     Assert.assertEquals(expected,ASCIILogos.NV_SCRIPT.getVal());
 }
 
@@ -3972,7 +3972,7 @@ public void TestPATORJK_HEX()
    /_____/\\_____/| \\ \\_____/\\    \\ /___________/ | \\ \\_____/\\    \\|\\____\\ /____/|     
   |      | |    ||  \\ |    |/___/||           | /   \\ |    |/___/|| |   ||    | |     
   |______|/|____|/   \\|____|   | ||___________|/     \\|____|   | | \\|___||____|/      
-                           |___|/                          |___|/                      """;
+                           |___|/                          |___|/                     """;
     Assert.assertEquals(expected,ASCIILogos.PATORJK_HEX.getVal());
 }
 
@@ -3987,7 +3987,7 @@ public void TestSCRIPT()
   _|    |   |  /  |  |   |  / \\_
  (/\\___/ \\_/|_/\\_/|_/ \\_/|_/ \\/ 
                                 
-                                 """;
+                                """;
     Assert.assertEquals(expected,ASCIILogos.SCRIPT.getVal());
 }
 
@@ -4004,7 +4004,7 @@ __/\\\\\\___________________________________/\\\\\\_____________________________
      _\\/\\\\\\_____________\\/\\\\\\___\\/\\\\\\__/\\\\\\////\\\\\\__\\/\\\\\\___\\/\\\\\\_\\/\\\\\\\\\\\\\\\\\\\\_   
       _\\/\\\\\\_____________\\/\\\\\\___\\/\\\\\\_\\/\\\\\\__\\/\\\\\\__\\/\\\\\\___\\/\\\\\\_\\////////\\\\\\_  
        _\\/\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\_\\//\\\\\\\\\\\\\\\\\\__\\//\\\\\\\\\\\\\\/\\\\_\\//\\\\\\\\\\\\\\\\\\___/\\\\\\\\\\\\\\\\\\\\_ 
-        _\\///////////////___\\/////////____\\///////\\//___\\/////////___\\//////////__ """;
+        _\\///////////////___\\/////////____\\///////\\//___\\/////////___\\//////////__""";
     Assert.assertEquals(expected,ASCIILogos.SLANT_RELIEF.getVal());
 }
 
@@ -4028,7 +4028,7 @@ public void TestTHREED_DIAGONAL()
 '---'     :  ,      .-./   :    :|:  ,      .-./'--'.     /  
            `--`----'    \\   \\  /   `--`----'      `--'---'   
                          `----'                              
-                                                              """;
+                                                             """;
     Assert.assertEquals(expected,ASCIILogos.THREED_DIAGONAL.getVal());
 }
 
@@ -4044,7 +4044,7 @@ public void TestBIG()
  | |___| |_| | (_| | |_| \\__ \\
  |______\\__,_|\\__,_|\\__,_|___/
                               
-                               """;
+                              """;
     Assert.assertEquals(expected,ASCIILogos.BIG.getVal());
 }
 
@@ -4063,7 +4063,7 @@ public void TestBLOCKS()
 | |  |________|  | || |    `.__.'    | || | |________.'  | || |    `.__.'    | || |  |_______.'  | |
 | |              | || |              | || |              | || |              | || |              | |
 | '--------------' || '--------------' || '--------------' || '--------------' || '--------------' |
- '----------------'  '----------------'  '----------------'  '----------------'  '----------------'  """;
+ '----------------'  '----------------'  '----------------'  '----------------'  '----------------' """;
     Assert.assertEquals(expected,ASCIILogos.BLOCKS.getVal());
 }
 
@@ -4082,8 +4082,28 @@ public void TestDOS_REBEL()
 ░░░░░░░░░░░   ░░░░░░░░  ░░░░░░░░   ░░░░░░░░ ░░░░░░  
                                                     
                                                     
-                                                     """;
+                                                    """;
     Assert.assertEquals(expected,ASCIILogos.DOS_REBEL.getVal());
+}
+
+
+@Test
+public void TestELECTRONIC()
+{
+    String expected = """
+ ▄            ▄         ▄  ▄▄▄▄▄▄▄▄▄▄   ▄         ▄  ▄▄▄▄▄▄▄▄▄▄▄ 
+▐░▌          ▐░▌       ▐░▌▐░░░░░░░░░░▌ ▐░▌       ▐░▌▐░░░░░░░░░░░▌
+▐░▌          ▐░▌       ▐░▌▐░█▀▀▀▀▀▀▀█░▌▐░▌       ▐░▌▐░█▀▀▀▀▀▀▀▀▀ 
+▐░▌          ▐░▌       ▐░▌▐░▌       ▐░▌▐░▌       ▐░▌▐░▌          
+▐░▌          ▐░▌       ▐░▌▐░▌       ▐░▌▐░▌       ▐░▌▐░█▄▄▄▄▄▄▄▄▄ 
+▐░▌          ▐░▌       ▐░▌▐░▌       ▐░▌▐░▌       ▐░▌▐░░░░░░░░░░░▌
+▐░▌          ▐░▌       ▐░▌▐░▌       ▐░▌▐░▌       ▐░▌ ▀▀▀▀▀▀▀▀▀█░▌
+▐░▌          ▐░▌       ▐░▌▐░▌       ▐░▌▐░▌       ▐░▌          ▐░▌
+▐░█▄▄▄▄▄▄▄▄▄ ▐░█▄▄▄▄▄▄▄█░▌▐░█▄▄▄▄▄▄▄█░▌▐░█▄▄▄▄▄▄▄█░▌ ▄▄▄▄▄▄▄▄▄█░▌
+▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░▌ ▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌
+ ▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀   ▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀ 
+                                                                 """;
+    Assert.assertEquals(expected,ASCIILogos.ELECTRONIC.getVal());
 }
 
 
@@ -4105,28 +4125,8 @@ public void TestFRAKTUR()
       ^\"**\"\"                      \"\"                                 
                                                                      
                                                                      
-                                                                      """;
+                                                                     """;
     Assert.assertEquals(expected,ASCIILogos.FRAKTUR.getVal());
-}
-
-
-@Test
-public void TestELECTRONIC()
-{
-    String expected = """
- ▄            ▄         ▄  ▄▄▄▄▄▄▄▄▄▄   ▄         ▄  ▄▄▄▄▄▄▄▄▄▄▄ 
-▐░▌          ▐░▌       ▐░▌▐░░░░░░░░░░▌ ▐░▌       ▐░▌▐░░░░░░░░░░░▌
-▐░▌          ▐░▌       ▐░▌▐░█▀▀▀▀▀▀▀█░▌▐░▌       ▐░▌▐░█▀▀▀▀▀▀▀▀▀ 
-▐░▌          ▐░▌       ▐░▌▐░▌       ▐░▌▐░▌       ▐░▌▐░▌          
-▐░▌          ▐░▌       ▐░▌▐░▌       ▐░▌▐░▌       ▐░▌▐░█▄▄▄▄▄▄▄▄▄ 
-▐░▌          ▐░▌       ▐░▌▐░▌       ▐░▌▐░▌       ▐░▌▐░░░░░░░░░░░▌
-▐░▌          ▐░▌       ▐░▌▐░▌       ▐░▌▐░▌       ▐░▌ ▀▀▀▀▀▀▀▀▀█░▌
-▐░▌          ▐░▌       ▐░▌▐░▌       ▐░▌▐░▌       ▐░▌          ▐░▌
-▐░█▄▄▄▄▄▄▄▄▄ ▐░█▄▄▄▄▄▄▄█░▌▐░█▄▄▄▄▄▄▄█░▌▐░█▄▄▄▄▄▄▄█░▌ ▄▄▄▄▄▄▄▄▄█░▌
-▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░▌ ▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌
- ▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀   ▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀ 
-                                                                  """;
-    Assert.assertEquals(expected,ASCIILogos.ELECTRONIC.getVal());
 }
 
 
@@ -4141,7 +4141,7 @@ public void TestLEAN()
  _/        _/    _/  _/    _/  _/    _/      _/_/     
 _/_/_/_/    _/_/_/    _/_/_/    _/_/_/  _/_/_/        
                                                       
-                                                       """;
+                                                      """;
     Assert.assertEquals(expected,ASCIILogos.LEAN.getVal());
 }
 
@@ -4165,7 +4165,7 @@ Yb,_,d88b,,_   ,d8b,  ,d8b,,d8,   ,d8b,,d8b,  ,d8b,,8'_   8)
                                                              
                                                              
                                                              
-                                                              """;
+                                                             """;
     Assert.assertEquals(expected,ASCIILogos.NSCRIPT.getVal());
 }
 
@@ -4179,7 +4179,7 @@ public void TestSTANDARD()
  | |  | | | |/ _` | | | / __|
  | |__| |_| | (_| | |_| \\__ \\
  |_____\\__,_|\\__,_|\\__,_|___/
-                              """;
+                             """;
     Assert.assertEquals(expected,ASCIILogos.STANDARD.getVal());
 }
 
@@ -4209,7 +4209,7 @@ public void TestALPHA()
        \\:::\\____\\       \\::::/    /              \\::::/    /              \\::::/    /              \\::::/    /       
         \\::/    /        \\::/____/                \\::/____/                \\::/____/                \\::/    /        
          \\/____/          ~~                       ~~                       ~~                       \\/____/         
-                                                                                                                      """;
+                                                                                                                     """;
     Assert.assertEquals(expected,ASCIILogos.ALPHA.getVal());
 }
 
@@ -4225,7 +4225,7 @@ public void TestBANNER()
  #       #    # #    # #    #      # 
  #       #    # #    # #    # #    # 
  #######  ####  #####   ####   ####  
-                                      """;
+                                     """;
     Assert.assertEquals(expected,ASCIILogos.BANNER.getVal());
 }
 
@@ -4258,7 +4258,7 @@ LLLLLLLLLLLLLLLLLLLLLLLL    uuuuuuuu  uuuu   ddddddddd   ddddd    uuuuuuuu  uuuu
                                                                                                  
                                                                                                  
                                                                                                  
-                                                                                                  """;
+                                                                                                 """;
     Assert.assertEquals(expected,ASCIILogos.DOH.getVal());
 }
 
@@ -4282,7 +4282,7 @@ ____                   ___
 _MMMMMMM  YMMM9MM_ YMMMMMM_  YMMM9MM_MYMMMM9  
                                               
                                               
-                                               """;
+                                              """;
     Assert.assertEquals(expected,ASCIILogos.GEORGIONESIX.getVal());
 }
 
@@ -4301,8 +4301,17 @@ public void TestGEORGIAONEONE()
   MM     ,M MM    MM `Mb    MM   MM    MM  L.   I8 
 .JMMmmmmMMM `Mbod\"YML.`Wbmd\"MML. `Mbod\"YML.M9mmmP' 
                                                    
-                                                    """;
+                                                   """;
     Assert.assertEquals(expected,ASCIILogos.GEORGIAONEONE.getVal());
+}
+
+
+@Test
+public void TestMNEMONIC()
+{
+    String expected = """
+Ludus""";
+    Assert.assertEquals(expected,ASCIILogos.MNEMONIC.getVal());
 }
 
 
@@ -4325,17 +4334,8 @@ public void TestDEF_LEPPARD()
    .W#G          E#K,   E#K##i       E#K, ,WK,      
   :W##########Wt EL     E##D.        EL   EG.       
   :,,,,,,,,,,,,,.:      E#t          :    ,         
-                        L:                           """;
+                        L:                          """;
     Assert.assertEquals(expected,ASCIILogos.DEF_LEPPARD.getVal());
-}
-
-
-@Test
-public void TestMNEMONIC()
-{
-    String expected = """
-Ludus """;
-    Assert.assertEquals(expected,ASCIILogos.MNEMONIC.getVal());
 }
 
 
