@@ -75,15 +75,14 @@ figlet.fonts(
 
 				        var varName = font.toString().toUpperCase().replace(/ /g,"_").replace(/3/g,"THREE").replace(/4/g,"FOUR").replace(/2/g,"TWO").replace(/1/g,"ONE").replace(/6/g,"SIX").replace(/5/g,"FIVE")/* some fonts start with numbers :( */ .replace(/-/g,"_").replace(/\'/g,""); //some have - :( the /g is regex for replace all occurences, apparently js has native regex syntax?
 
-				    	var varVal = data.toString().replace(/\\/g,"\\\\").replace(/\"/g , "\\\"");
+				    	var varVal = (data.toString().replace(/\\/g,"\\\\").replace(/\"/g , "\\\"")).trim());
 
                         var func = `
 @Test
 public void Test${varName}()
 {
     String expected = """
-    ${varVal}
-    """;
+${varVal}""";
     Assert.assertEquals(expected,ASCIILogos.${varName}.getVal());
 }
 `

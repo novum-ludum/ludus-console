@@ -91,7 +91,7 @@ figlet.fonts(
 
 			    		if(varName == "MNEMONIC") valSeparator = ";" //if it is the final font,end with a semicolon.
 
-			    		var finalString ="\t\t\t" + varName + "(\"\"\"\n" + varVal + "\n \"\"\")"+valSeparator+"\n\n";
+			    		var finalString ="\t\t\t" + varName + "(\"\"\"\n" + varVal + "\"\"\")"+valSeparator+"\n\n";
 
 		    			console.log(finalString);
 
