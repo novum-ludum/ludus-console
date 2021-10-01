@@ -4,3 +4,4 @@ flow
 
 # Dont bother to track the generated file. Plus its like 3200 lines,its better off.
 /src/main/java/com/ludus/ASCIILogos.java
+/src/test/java/ASCIILogosTest.java
