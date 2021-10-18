@@ -54,8 +54,6 @@ var enumEnd = `
 }
 `;
 
-
-
 // print the initial Code of the file
 console.log(header);
 //print the fonts,as Java enum values:
@@ -67,6 +65,8 @@ figlet.fonts(
    			console.dir(err);
    			return;
    		}
+
+
    		fonts.forEach(
    			function(font){
    				figlet.text('Ludus', {
@@ -101,4 +101,4 @@ figlet.fonts(
 // wait for the figlet.js to print all the logos and then print the ending of the enum.
 
 const timer = ms => new Promise( res => setTimeout(res, ms));
-timer(3000).then(_=>console.log(enumEnd));      // should take abt 3 seconds.
+timer(7000).then(_=>console.log(enumEnd));      // should take abt 7 seconds.
